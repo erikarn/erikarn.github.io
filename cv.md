@@ -104,8 +104,8 @@ solving, debugging and troubleshooting across all disciplines.
 
 #### Xenion Pty Ltd (Perth) - June 2007 - Jan 2016
 
-Skills: Routing/Switching; Web Caching; Squid software design; system administration; project design and management; Virtualisation and hosting technologies; embedded hardware platform development.
-Xenion Pty Ltd provided consulting services for a variety of clients around the world.
+* Skills: Routing/Switching; Web Caching; Squid software design; system administration; project design and management; Virtualisation and hosting technologies; embedded hardware platform development.
+* Xenion Pty Ltd provided consulting services for a variety of clients around the world.
 
 ##### Software
 
@@ -139,7 +139,7 @@ Xenion Pty Ltd provided consulting services for a variety of clients around the 
 
 #### Systems/Network Administrator
 
-Skills: Routing/Switching; Solaris 8, 9, 10 Administration; Programming (Perl, C, Shell), SAN (Sun StorEdge 3511)
+* Skills: Routing/Switching; Solaris 8, 9, 10 Administration; Programming (Perl, C, Shell), SAN (Sun StorEdge 3511)
 
 * Provided some temporary system/administration services after the previous administrator left.
 * Quickly learnt and documented all existing services.
@@ -151,7 +151,7 @@ Skills: Routing/Switching; Solaris 8, 9, 10 Administration; Programming (Perl, C
 
 #### Network Engineer
 
-Skills: Cisco routing and bridging technologies; Virtualisation technologies (VMWare, Xen); some Linux/Solaris administration and software development
+* Skills: Cisco routing and bridging technologies; Virtualisation technologies (VMWare, Xen); some Linux/Solaris administration and software development
 
 * Focused on Cisco-based network and VoIP technologies.
 * Supported a wide variety of critical networks spanning state and international borders for a number of clients.
@@ -162,7 +162,7 @@ Skills: Cisco routing and bridging technologies; Virtualisation technologies (VM
 
 #### Systems/Network Administrator
 
-Skills: Cisco networking (ethernet, IP); Debian/Redhat ser ver installation and maintenance; scripting and application development (SH, BASH, sed/awk, zsh, C, C++, PHP, Perl, Python), dns, apache-1.x and 2.x; squid, radiusd, tacacsd, imp/horde, rancid (cisco config management), lrrd, munin, smokeping, Nagios, Mysource, some Oracle DB interfacing, sendmail, postfix, qmail, exim, Xen, VMWare.
+* Skills: Cisco networking (ethernet, IP); Debian/Redhat ser ver installation and maintenance; scripting and application development (SH, BASH, sed/awk, zsh, C, C++, PHP, Perl, Python), dns, apache-1.x and 2.x; squid, radiusd, tacacsd, imp/horde, rancid (cisco config management), lrrd, munin, smokeping, Nagios, Mysource, some Oracle DB interfacing, sendmail, postfix, qmail, exim, Xen, VMWare.
 
 * Part of a three-person team responsible for the state-wide UWA network services.
 * Improved proxy cache performance (Squid running under Linux), dropping CPU usage by almost 95% and allowing the current proxy service to scale to fit the future needs of the university;
@@ -178,6 +178,7 @@ Skills: Cisco networking (ethernet, IP); Debian/Redhat ser ver installation and 
 #### Technical Administrator
 
 * Skills: Application development, Debian+Redhat Linux server installation and maintenance, ethernet/IP networking, advanced IP routing (BGP, OSPF), traffic shaping/management, QoS, L2TP (ADSL, Dialup), DNS, Apache, Squid, radiusd, AccSys ISP accounting database, Backup services, locally-written php4 web site hosting+CMS, nagios+mrtg monitoring, Mail (POP,IMAP,SMTP) services.
+
 * Employed initially to consolidate and review the security of existing Linux, Windows and network infrastructure systems.
 * Core networking infrastructure upgrades to support VoIP;
 * General software upgrades across all Linux servers;
@@ -193,9 +194,9 @@ Skills: Cisco networking (ethernet, IP); Debian/Redhat ser ver installation and 
 
 #### Network Engineer
 
-Skills: ATM + IP networking, IP routing (OSPF, IS-IS, BGP, RIP), Wireless and fibre WAN, Linux/FreeBSD server administration, Nortel ATM+Wireless equipment, Cisco+Cabletron switches, named, radius, mrtg, cricket, traffacct, backups, tripwire
+* Skills: ATM + IP networking, IP routing (OSPF, IS-IS, BGP, RIP), Wireless and fibre WAN, Linux/FreeBSD server administration, Nortel ATM+Wireless equipment, Cisco+Cabletron switches, named, radius, mrtg, cricket, traffacct, backups, tripwire
 
-Coretel was a telecommunications provider based in Perth, specializing in Wireless Internet and Telephony. Their core business was bought by another company, Didasco, sometime in 2005.
+* Coretel was a telecommunications provider based in Perth, specializing in Wireless Internet and Telephony. Their core business was bought by another company, Didasco, sometime in 2005.
 * Responsible for the design and maintenance of their Wireless ATM network, spanning half a dozen points of presence in Western Australia.
 * Required quick familiarity with used Nortel Passport ATM switch/routers and the Shasta Broadband IP/ATM service router.
 * Also responsible for Linux, FreeBSD and Novell servers implementing their shared e-mail, DNS, reporting and general services.
@@ -204,9 +205,9 @@ Coretel was a telecommunications provider based in Perth, specializing in Wirele
 
 #### Systems Architect
 
-Skills: FreeBSD 4.x installation and administration, Cisco switches and routers, Bay Networks dialup servers, IP routing (OSPF, IS-IS, BGP), E1 and E3 circuits, PHP+Perl application development, Apache+PHP hosting, Postfix SMTP, rsync+tar backups, Squid, radius, PostgreSQL user/financial database, MySQL statistics database.
+* Skills: FreeBSD 4.x installation and administration, Cisco switches and routers, Bay Networks dialup servers, IP routing (OSPF, IS-IS, BGP), E1 and E3 circuits, PHP+Perl application development, Apache+PHP hosting, Postfix SMTP, rsync+tar backups, Squid, radius, PostgreSQL user/financial database, MySQL statistics database.
 
-IP Exchange was an attempt to build an Australia-wide Virtual ISP, with dialup and ADSL deployments in each major city. The main business, Barekoala, was bought by Dodo Internet sometime in 2003.
+* IP Exchange was an attempt to build an Australia-wide Virtual ISP, with dialup and ADSL deployments in each major city. The main business, Barekoala, was bought by Dodo Internet sometime in 2003.
 
 * Design and implementation of a virtual ISP accounting/management system, using PHP and PostgreSQL, controlling all aspects of the operation from online account creation, account management, credit card billing and various reporting;
 * Design and implementation of transparent web proxy/caching, using a locally-modified Squid, to improve the user experience;
@@ -218,7 +219,7 @@ IP Exchange was an attempt to build an Australia-wide Virtual ISP, with dialup a
 
 #### Network Architect/Systems Programmer
 
-Skills: MPLS, IP routing (BGP, IS-IS, OSPF), ethernet switching LAN+WAN, wireless technology, FreeBSD kernel development, C/C++/Perl application development, Solaris 8+Disksuite+Jumpstart server administration, FreeBSD server installation and administration, Alphaserver GS160 application development and system maintenance, Cisco routers+switches, Juniper routers, Extreme switches, OC1/OC3/OC12 Europe and North American IP+MPLS network, apache 1.x, named, radius, mysql, cricket+mrtg, locally developed route arbitration and network SLA monitoring software.
+* Skills: MPLS, IP routing (BGP, IS-IS, OSPF), ethernet switching LAN+WAN, wireless technology, FreeBSD kernel development, C/C++/Perl application development, Solaris 8+Disksuite+Jumpstart server administration, FreeBSD server installation and administration, Alphaserver GS160 application development and system maintenance, Cisco routers+switches, Juniper routers, Extreme switches, OC1/OC3/OC12 Europe and North American IP+MPLS network, apache 1.x, named, radius, mysql, cricket+mrtg, locally developed route arbitration and network SLA monitoring software.
 
 * Served as both a network engineer and network applications developer.
 * Testing and development of MPLS and VLAN solutions, involving Juniper M40 routers and Extreme Black Diamond/Summit ethernet switches;
@@ -230,7 +231,7 @@ Skills: MPLS, IP routing (BGP, IS-IS, OSPF), ethernet switching LAN+WAN, wireles
 
 #### Network/Web Cache Architect
 
-Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 development, apache, named, sendmail SMTP, qmail SMTP, HP Openview, Cisco routers/switches, Alteon Acedirector 3 loadbalance/failover switches, OC3 Europe and North Amercan IP network, IP routing (OSPF, BGP, IS-IS, RIP), ethernet switching LAN/WAN/VLAN.
+* Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 development, apache, named, sendmail SMTP, qmail SMTP, HP Openview, Cisco routers/switches, Alteon Acedirector 3 loadbalance/failover switches, OC3 Europe and North Amercan IP network, IP routing (OSPF, BGP, IS-IS, RIP), ethernet switching LAN/WAN/VLAN.
 
 * Speedport was bought by Versatel Telecom in the middle of 1999.
 * The initial reverse proxy/cache work was presented at NANOG 19 in Montreal, Canada in late 1999. This work was one of the precursors to large scale content delivery network development.
@@ -239,7 +240,7 @@ Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 deve
 
 #### Network/Web Cache Architect
 
-Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 development, apache, named, sendmail SMTP, qmail SMTP, HP Openview, Cisco routers/switches, Alteon Acedirector 3 loadbalance/failover switches, OC3 Europe and North Amercan IP network, IP routing (OSPF, BGP, IS-IS, RIP), ethernet switching LAN/WAN/VLAN.
+* Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 development, apache, named, sendmail SMTP, qmail SMTP, HP Openview, Cisco routers/switches, Alteon Acedirector 3 loadbalance/failover switches, OC3 Europe and North Amercan IP network, IP routing (OSPF, BGP, IS-IS, RIP), ethernet switching LAN/WAN/VLAN.
 
 * Designed, implemented and managed forward and reverse proxy services based on Squid-2.2 on Solaris.
 * Developed their internet infrastructure (DNS, SMTP, NNTP.)
@@ -251,7 +252,7 @@ Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 deve
 
 #### Customer Support
 
-Skills: Customer Support, Linux application development (Perl.)
+* Skills: Customer Support, Linux application development (Perl.)
 
 * Developed developing in-house applications to support and co-ordinate dialup client software installations across Perth.
 
@@ -259,7 +260,7 @@ Skills: Customer Support, Linux application development (Perl.)
 
 #### Software Developer
 
-Skills: Visual C, Visual Basic, Z180 development, basic electronics, GPS software implementation (C), some SCO Unix exposure.
+* Skills: Visual C, Visual Basic, Z180 development, basic electronics, GPS software implementation (C), some SCO Unix exposure.
 
 * Developed software for a series of electronic LED signs - both text and video.
 * Worked with Z180 and 68HC11 hardware platforms.
@@ -270,7 +271,7 @@ Skills: Visual C, Visual Basic, Z180 development, basic electronics, GPS softwar
 
 #### Network/Systems Administrator
 
-Skills: FreeBSD+Linux administration, C/Perl development, IP routing (BGP, OSPF, IS-IS), IP over Satellite, Cisco routing/switching, MySQL, Squid proxy/cache work; TCP/IP over satellite optimisation.
+* Skills: FreeBSD+Linux administration, C/Perl development, IP routing (BGP, OSPF, IS-IS), IP over Satellite, Cisco routing/switching, MySQL, Squid proxy/cache work; TCP/IP over satellite optimisation.
 
 * Assisted in the development, deployment and testing of one of Australia's first commercial Satellite IP rollouts - the OGN network included a 45mbit service via Pan-Am Sat, delivering bandwidth from California to Melbourne, Sydney and Cairns.
 * Developed a number of technologies to improve web browsing and general TCP response, utilizing a smaller terrestrial link to prioritize bulk traffic versus latency-critical traffic, giving the performance of a terrestrial link with the available throughput of a satellite service.
