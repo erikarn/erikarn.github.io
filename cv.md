@@ -324,7 +324,6 @@ http://www.freebsd.org/
 * (1999) Changes to dumpdev support to allow dumping to swap before single-user startup had completed
 * (1999) Work on usermount support
 * (1999) Development of a cut-down inode-only FFS for use in proxy/cache and news server environments
-
 * (2008) Fully transparent TCP proxying
 * (2009) HVM/Xen work - clock driver, network driver stability, initial SMP stability
 * (2009) GEOM module to support logging individual disk operations for analysis and profiling
