@@ -3,18 +3,18 @@ layout: default
 title: Resume
 ---
 
-# Adrian Chadd
+## Adrian Chadd
 
 * Email: adrian@creative.net.au
 * Mobile: +1 415 857 2937
 
-# Career Objectives
+## Career Objectives
 
 Seeking challenging roles designing, implementing and troubleshooting new
 hardware platforms and internet of things devices; internet infrastructure
 and wireless technologies.
 
-# Technical Skills
+## Technical Skills
 Adrian Chadd has over 15 years experience in various networking, systems and
 software related areas. He has worked in a variety of environments including
 technology startups, telecommunications carriers, corporate, consulting,
@@ -41,7 +41,7 @@ solving, debugging and troubleshooting across all disciplines.
 * Systems Programming - Event-driven network and disk IO; POSIX threads, distributed message passing, various RPC flavours, multi-thread and multi-process SMP applications.
 * Wireless Development - Ongoing driver development of the Atheros HAL wireless driver in FreeBSD. Maintainer/lead of the FreeBSD net80211 802.11 wireless stack. Other driver maintenance (Intel, Realtek.)
 
-# Presentations
+## Presentations
 
 * Distributed content caching in large networks - Nanog 17, 1999
 * Distributed content caching in large networks, part II - Nanog 18, 2000
@@ -54,18 +54,20 @@ solving, debugging and troubleshooting across all disciplines.
 * State of 802.11n in FreeBSD - BSDCan, 2012
 * The future of wireless networking - mobile, gigabit and beyond - BSDCan, 2013
 
-# Employment History
+## Employment History
 
-## Eva Automation, Inc. (Redwood City, CA) - November 2015 -
-### Wifi Team Lead
+### Eva Automation, Inc. (Redwood City, CA) - November 2015 -
+
+#### Wifi Team Lead
 
 * Working on Broadcom ARM and 802.11ac hardware
 * Wifi hardware validation (lightpoint)
 * Embedded Linux development and driver debugging
 * Further information available upon request.
 
-## Norse Corp, Inc. (San Mateo, CA) - May 2014 - November 2015
-### Senior Engineer
+### Norse Corp, Inc. (San Mateo, CA) - May 2014 - November 2015
+
+#### Senior Engineer
 
 * Part of the Norse DarkViking IP threat security appliance.
 * Worked on 1G and 10G based IPv4 interception and HTTP classification.
@@ -77,8 +79,9 @@ solving, debugging and troubleshooting across all disciplines.
 * Worked on initial data visualisation work (in d3.js), with a REST API (using cursor pagination) which worked on live, pre-aggregated data and raw data - providing fast search results on large (> 50 million) entry datasets on a single appliance.
 * Implemented above REST API using cursor pagination on the appliance backend - utilising the existing Django rest framework, Postgresql, with custom (pre-9.5) rollup aggregation tables and data models.
 
-## Netflix, Inc. (Los Gatos, CA) - July 2013 - April 2014
-### Senior Software Engineer
+### Netflix, Inc. (Los Gatos, CA) - July 2013 - April 2014
+
+#### Senior Software Engineer
 
 * Part of the FreeBSD based Open Connect team.
 * Worked on network stack parallelism fixes, pushed fixes into FreeBSD-HEAD.
@@ -88,21 +91,23 @@ solving, debugging and troubleshooting across all disciplines.
 * Worked with Intel to fix corner case issues in ixgbe transmit packet handling and interrupt handling.
 * Developed network and POSIX AIO disk benchmark code, using asynchronous worker threads (1 per CPU core) to expose CPU use, locking and concurrency related issues. Code is available at http://github.com/erikarn/.
 
-## Qualcomm Atheros, Inc. (San Jose) - December 2011- July 2013
-### Senior Software Engineer
+### Qualcomm Atheros, Inc. (San Jose) - December 2011- July 2013
+
+#### Senior Software Engineer
 
 * Part of the internal wifi hardware driver development - carrier and enterprise platforms.
 * Focusing on DFS / radar detection and regulatory requirements.
 * Involved in initial chipset prototyping and driver bringup/validation.
 * Prototyped a multi-device, synchronised audio product using wifi and other L2/L3 technologies.
 
-## Owner/Operator
-### Xenion Pty Ltd (Perth) - June 2007 - Jan 2016
+### Owner/Operator
+
+#### Xenion Pty Ltd (Perth) - June 2007 - Jan 2016
 
 Skills: Routing/Switching; Web Caching; Squid software design; system administration; project design and management; Virtualisation and hosting technologies; embedded hardware platform development.
 Xenion Pty Ltd provided consulting services for a variety of clients around the world.
 
-#### Software
+##### Software
 
 * On-going development with transparent proxy/cache services for a US based ISP in Iraq currently serving 15,000 clients
 * Development of NNTP/NNRP proxy/load balancing software, allowing single low cost servers to push multi-gigabits of traffic to thousands of clients each (whereas traditional innd/dreaderd/etc will not scale past a couple hundred megabits per server.)
@@ -113,13 +118,13 @@ Xenion Pty Ltd provided consulting services for a variety of clients around the 
 * Many improvements to Lusca to allow it to function more effectively as CDN edge nodes - including per-domain traffic billing, BGPv4 integration for logging and cache peering, and netflow export of client data for live traffic monitoring;
 * Integrating support for caching video sites (eg Youtube) and various software update sites (eg Windows Updates) so Lusca cache farms can both cache content and share it with other caches in the network;
 
-#### Hardware
+##### Hardware
 
 * Designed an embdded Squid/Lusca software suite for use on MIPS/ARM based SoC platforms - including URL filtering/monitoring/logging support which was targetted to work on platforms with small amounts of RAM;
 * Ported FreeBSD/mips to the Atheros AR91xx/AR724x SoC platforms;
 * Designed and developed prototype wireless access point hardware using Ubiquiti Routerstation Pro + SR-71A 802.11abgn radios for use in underground mining environments - primarily for use in vehicle/personnel location and underground traffic management.
 
-#### Wireless
+##### Wireless
 
 * Xenion has been engaged by a variety of companies to work on FreeBSD and Atheros 802.11 support. These companies include KBC Networks Inc, Hobnob Inc, and Minetec Pty Ltd.
 * Added chipset support for the Atheros AR913x and AR9287 wireless devices to FreeBSD;
@@ -130,8 +135,9 @@ Xenion Pty Ltd provided consulting services for a variety of clients around the 
 * Assisted in porting and debugging the Atheros radar detection software to FreeBSD;
 * Added 802.11n stack and driver support for all Atheros 802.11n chipsets currently supported by FreeBSD.
 
-## Electronic and Electrical Engineering department; University of Western Australia - November 2007 - September 2008
-### Systems/Network Administrator
+### Electronic and Electrical Engineering department; University of Western Australia - November 2007 - September 2008
+
+#### Systems/Network Administrator
 
 Skills: Routing/Switching; Solaris 8, 9, 10 Administration; Programming (Perl, C, Shell), SAN (Sun StorEdge 3511)
 
@@ -141,8 +147,9 @@ Skills: Routing/Switching; Solaris 8, 9, 10 Administration; Programming (Perl, C
 * Students and staff used these services 24/7 in a variety of capacities.
 * Migrated services to Virtualisation platforms (Xen, Solaris Zones).
 
-## Denver Technology (Perth) - October 2006 - June 2007
-### Network Engineer
+### Denver Technology (Perth) - October 2006 - June 2007
+
+#### Network Engineer
 
 Skills: Cisco routing and bridging technologies; Virtualisation technologies (VMWare, Xen); some Linux/Solaris administration and software development
 
@@ -151,8 +158,9 @@ Skills: Cisco routing and bridging technologies; Virtualisation technologies (VM
 * Implemented monitoring and service/QoS management for one of Western Australia's largest mining companies.
 * Tasked with the construction, configuration and installation for the BP Kwinana refinery in Perth; involved equipment and configuration upgrades to bring the network up to date and provide VoIP services to all users. Wrote software to automate a large part of the configuration process - which was done by hand at other refineries - dramatically speeding up the deployment time.
 
-## The University of Western Australia (Perth) - October 2003 - October 2006
-### Systems/Network Administrator
+### The University of Western Australia (Perth) - October 2003 - October 2006
+
+#### Systems/Network Administrator
 
 Skills: Cisco networking (ethernet, IP); Debian/Redhat ser ver installation and maintenance; scripting and application development (SH, BASH, sed/awk, zsh, C, C++, PHP, Perl, Python), dns, apache-1.x and 2.x; squid, radiusd, tacacsd, imp/horde, rancid (cisco config management), lrrd, munin, smokeping, Nagios, Mysource, some Oracle DB interfacing, sendmail, postfix, qmail, exim, Xen, VMWare.
 
@@ -165,8 +173,9 @@ Skills: Cisco networking (ethernet, IP); Debian/Redhat ser ver installation and 
 * Re-engineering of current network services to support increased security and network resilience.
 * The deployment of network infrastructure in new campus locations throughout Western Australia.
 
-## West Australia Networks (Perth) May 2003 - October 2003
-### Technical Administrator
+### West Australia Networks (Perth) May 2003 - October 2003
+
+#### Technical Administrator
 
 * Skills: Application development, Debian+Redhat Linux server installation and maintenance, ethernet/IP networking, advanced IP routing (BGP, OSPF), traffic shaping/management, QoS, L2TP (ADSL, Dialup), DNS, Apache, Squid, radiusd, AccSys ISP accounting database, Backup services, locally-written php4 web site hosting+CMS, nagios+mrtg monitoring, Mail (POP,IMAP,SMTP) services.
 * Employed initially to consolidate and review the security of existing Linux, Windows and network infrastructure systems.
@@ -180,8 +189,9 @@ Skills: Cisco networking (ethernet, IP); Debian/Redhat ser ver installation and 
   Wireless internet; integrating into their existing Accounting package (AccSys);
 * The introduction of basic workflow and email ticket tracking systems implemented using Request Tracker
 
-## Coretel (Perth) January 2003 - May 2003
-### Network Engineer
+### Coretel (Perth) January 2003 - May 2003
+
+#### Network Engineer
 
 Skills: ATM + IP networking, IP routing (OSPF, IS-IS, BGP, RIP), Wireless and fibre WAN, Linux/FreeBSD server administration, Nortel ATM+Wireless equipment, Cisco+Cabletron switches, named, radius, mrtg, cricket, traffacct, backups, tripwire
 
@@ -190,8 +200,9 @@ Coretel was a telecommunications provider based in Perth, specializing in Wirele
 * Required quick familiarity with used Nortel Passport ATM switch/routers and the Shasta Broadband IP/ATM service router.
 * Also responsible for Linux, FreeBSD and Novell servers implementing their shared e-mail, DNS, reporting and general services.
 
-## IP Exchange (Sydney) July 2002 - December 2002
-### Systems Architect
+### IP Exchange (Sydney) July 2002 - December 2002
+
+#### Systems Architect
 
 Skills: FreeBSD 4.x installation and administration, Cisco switches and routers, Bay Networks dialup servers, IP routing (OSPF, IS-IS, BGP), E1 and E3 circuits, PHP+Perl application development, Apache+PHP hosting, Postfix SMTP, rsync+tar backups, Squid, radius, PostgreSQL user/financial database, MySQL statistics database.
 
@@ -203,8 +214,9 @@ IP Exchange was an attempt to build an Australia-wide Virtual ISP, with dialup a
 * Design, implementation and improvements of ISP systems - including a distributed mailbox service and web hosting service
 * The maintenance of over thirty FreeBSD servers - including constant security audits and software upgrading.
 
-## InterXion (Amsterdam) March 2000 - September 2001
-### Network Architect/Systems Programmer
+### InterXion (Amsterdam) March 2000 - September 2001
+
+#### Network Architect/Systems Programmer
 
 Skills: MPLS, IP routing (BGP, IS-IS, OSPF), ethernet switching LAN+WAN, wireless technology, FreeBSD kernel development, C/C++/Perl application development, Solaris 8+Disksuite+Jumpstart server administration, FreeBSD server installation and administration, Alphaserver GS160 application development and system maintenance, Cisco routers+switches, Juniper routers, Extreme switches, OC1/OC3/OC12 Europe and North American IP+MPLS network, apache 1.x, named, radius, mysql, cricket+mrtg, locally developed route arbitration and network SLA monitoring software.
 
@@ -214,16 +226,18 @@ Skills: MPLS, IP routing (BGP, IS-IS, OSPF), ethernet switching LAN+WAN, wireles
 * Implementing and maintaining a Europe-wide network monitoring service, implementing SLA style monitoring for all InterXion POPs and providing live reports to clients and management;
 * Design, testing and deployment of Solaris 8 application hosting using Netra T1 rackmount servers; including Jumpstart-based hands-off installation with specific customisations available to clients to support their specific environments
 
-## Versatel Telecom (Amsterdam) April 1999 - March 2000
-### Network/Web Cache Architect
+### Versatel Telecom (Amsterdam) April 1999 - March 2000
+
+#### Network/Web Cache Architect
 
 Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 development, apache, named, sendmail SMTP, qmail SMTP, HP Openview, Cisco routers/switches, Alteon Acedirector 3 loadbalance/failover switches, OC3 Europe and North Amercan IP network, IP routing (OSPF, BGP, IS-IS, RIP), ethernet switching LAN/WAN/VLAN.
 
 * Speedport was bought by Versatel Telecom in the middle of 1999.
 * The initial reverse proxy/cache work was presented at NANOG 19 in Montreal, Canada in late 1999. This work was one of the precursors to large scale content delivery network development.
 
-## Speedport (Amsterdam) December 1998 - April 1999
-### Network/Web Cache Architect
+### Speedport (Amsterdam) December 1998 - April 1999
+
+#### Network/Web Cache Architect
 
 Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 development, apache, named, sendmail SMTP, qmail SMTP, HP Openview, Cisco routers/switches, Alteon Acedirector 3 loadbalance/failover switches, OC3 Europe and North Amercan IP network, IP routing (OSPF, BGP, IS-IS, RIP), ethernet switching LAN/WAN/VLAN.
 
@@ -233,109 +247,134 @@ Skills: Solaris 7 administration, FreeBSD administration, Squid-2.3 and 2.4 deve
 * Developed a local trouble ticketing and email platform for the Speedport NOC.
 * Assisted in the design, rollout and management of their Cisco 12000-series IP network.
 
-## iiNet Technologies (Perth) October - December 1998
-### Customer Support
+### iiNet Technologies (Perth) October - December 1998
+
+#### Customer Support
 
 Skills: Customer Support, Linux application development (Perl.)
 
 * Developed developing in-house applications to support and co-ordinate dialup client software installations across Perth.
 
-Software Developer
-Computronics (Perth) June-October 1998
-Skills: Visual C, Visual Basic, Z180 development, basic electronics, GPS software implementation (C), some SCO Unix exposure.
-Developed software for a series of electronic LED signs - both text and video.
-Worked with Z180 and 68HC11 hardware platforms.
-Wrote control software for GPS-based survey and farming equipment.
-Developed software used by a number of Australian Cinemas to display up-to-date movie screening times on their LED signs.
-Network/Systems Administrator
-Ourworld Global Network (Sydney) 1997-1998
-Skills: FreeBSD+Linux administration, C/Perl development, IP routing (BGP, OSPF, IS-IS), IP over Satellite, Cisco routing/switching, MySQL, Squid proxy/cache work; TCP/IP over satellite optimisation.
-Assisted in the development, deployment and testing of one of Australia's first commercial Satellite IP rollouts - the OGN network included a 45mbit service via Pan-Am Sat, delivering bandwidth from California to Melbourne, Sydney and Cairns.
-Developed a number of technologies to improve web browsing and general TCP response, utilizing a smaller terrestrial link to prioritize bulk traffic versus latency-critical traffic, giving the performance of a terrestrial link with the available throughput of a satellite service.
-Implemented transparent Squid HTTP proxy work for caching HTTP traffic over satellite and some TCP/IP window scaling rewriting.
-Open Source Software Projects
-Squid Proxy Cache
-http://www.squid-cache.org/
-Besides general performance, stability and code reorganisation improvements, the following is a non-exhaustive list of project milestones and features completed for the Squid project.
-(1999) initial storage modularisation work (modio)
-(1999) initial event-driven network work (commloops)
-(2000) integration and testing of initial COSS storage layer work
-(2000) changes to Squid-2.5 to decrease memory allocator use and improve general performance
-(2002) initial Squid-3 tidyup and codebase fork
-(2006) integration and debugging of WCCPv2 support
-(2006) async disk IO support for COSS
-(2006) production-ready COSS support for Squid-2.6
-(2006) production-ready event-driven network IO support for Squid-2.6
-(2006) kqueue, /dev/poll support for Squid-2.6
-(2006) performance work: client-side request parsing rewrite for Squid-2.7 and Squid-3.0
-(2008) Development of client-side delay pool support - limiting bandwidth use per-connection
-(2008) Development of delayed forwarding support for POST
-Lusca Proxy Cache
-http://www.lusca.net/
-This is a non-exhaustive list of open source work either committed back or will be committed back to the public Lusca repository.
-(2008) Modularisation work - migrating most support and framework code into separate libraries with a defined, minimalistic dependency graph
-(2008) Initial Ipv6 socket framework support
-(2008) Ipv6 ACL, DNS and client database support
-(2009) Solaris event framework support for network IO
-(2009) Performance improvements with the thread based async IO support
-(2009) Introduction of fully transparent proxy support - Linux TPROXY2, Linux TPROXY4, FreeBSD TPROXY
-(2009) Rewritten storage startup and cache index rebuilding code - dramatically improving rebuild time for AUFS
-(2010) Per-domain traffic billing support - suitable for providing peak and average traffic levels suitable for 95% percentile billing
-FreeBSD
-http://www.freebsd.org/
-(1998) Extending libalias to support NAT'ing IP protocols (for GRE/IPIP NAT)
-(1998) Simple extension to ping to timeout after a fixed length of time
-(1998) A simple exec image activator to support Java executables
-(1999) fsck(8) modularisation for multiple-filesystem support
-(1999) Local VM/buffer cache support to wire specific FFS structures in place to speed up innd performance
-(1999) Changes to dumpdev support to allow dumping to swap before single-user startup had completed
-(1999) Work on usermount support
-(1999) Development of a cut-down inode-only FFS for use in proxy/cache and news server environments
-(2008) Fully transparent TCP proxying
-(2009) HVM/Xen work - clock driver, network driver stability, initial SMP stability
-(2009) GEOM module to support logging individual disk operations for analysis and profiling
-(2010) FreeBSD/MIPS related work on the UBNT Routerstation Pro (Atheros AR71xx)
-(2010) Debugged calibration and beacon related issues in the Atheros 5416/9160 driver
-(2010) Extended the FreeBSD/MIPS Atheros SoC support to the AR9132 SoC
-(2010) Added AR910x Wireless MAC/radio support for the Atheros AR9132 SoC
-(2010) Prototyped 802.11n support for the AR9100/AR9160/AR9280 chipsets
-(2011) Added AR9287 support
-(2011) Extended the FreeBSD/MIPS Atheros SoC support to the AR724x SoC
-(2011) Completed the initial 802.11n support for all currently supported 11n chipsets
-(2011) Implemented a test radar detection module for ath(4), as part of regulatory requirement work
-(2012) Implemented 802.11n TX aggregation support for the ath(4) driver
-(2012) Fixed reset and channel change handling in ath(4) for correct 802.11n behaviour
-(2012) Added support for Atheros SoC platforms with calibration/PCI configuration data in SPI flash, in order to run on the various embedded hardware (Ubiquiti, TP-Link, D-Link) available
-(2012) Implemented and debugged the 802.11n BAR TX support for ath(4) TX aggregation
-(2013) Added Atheros AR9380 and later chipset support
-(2013) Added Atheros AR933x SoC support
-(2013) Debugged MIPS platform issues with FreeBSD/MIPS on mips74k superscalar cores
-(2013) Added Atheros AR934x SoC support
-(2013) Debugged performance issues in if_lagg, leading to locking related changes
-(2013) Updated Intel Sandy Bridge / Sandy Bridge Xeon support in hwpmc
-(2013) Worked with Intel to fix corner case issues in ixgbe transmit packet handling and interrupt handling
-(2013) Added support to the FreeBSD Intel 802.11n NIC driver for Centrino 6xxx, 2xxx, 1xx devices
-(2014) Added Atheros AR8327 switch PHY support
-(2014) Added support for kqueue notification of sendfile() completion
-(2014) Debugged various performance/behavioural issues with flowtable, making it more predictable over time
-(2015) Added QCA955x SoC and wifi support.
-(2015) Added QCA953x SoC and wifi support.
-(2015) Implemented 802.11n transmit and receive support for the Realtek RTL8188SU/8189SU USB adapters
-(2015) Implemented initial NUMA memory allocator configuration support in FreeBSD-11.
+### Computronics (Perth) June-October 1998
 
-## Xen (general)
+#### Software Developer
+
+Skills: Visual C, Visual Basic, Z180 development, basic electronics, GPS software implementation (C), some SCO Unix exposure.
+
+* Developed software for a series of electronic LED signs - both text and video.
+* Worked with Z180 and 68HC11 hardware platforms.
+* Wrote control software for GPS-based survey and farming equipment.
+* Developed software used by a number of Australian Cinemas to display up-to-date movie screening times on their LED signs.
+
+### Ourworld Global Network (Sydney) 1997-1998
+
+#### Network/Systems Administrator
+
+Skills: FreeBSD+Linux administration, C/Perl development, IP routing (BGP, OSPF, IS-IS), IP over Satellite, Cisco routing/switching, MySQL, Squid proxy/cache work; TCP/IP over satellite optimisation.
+
+* Assisted in the development, deployment and testing of one of Australia's first commercial Satellite IP rollouts - the OGN network included a 45mbit service via Pan-Am Sat, delivering bandwidth from California to Melbourne, Sydney and Cairns.
+* Developed a number of technologies to improve web browsing and general TCP response, utilizing a smaller terrestrial link to prioritize bulk traffic versus latency-critical traffic, giving the performance of a terrestrial link with the available throughput of a satellite service.
+* Implemented transparent Squid HTTP proxy work for caching HTTP traffic over satellite and some TCP/IP window scaling rewriting.
+
+## Open Source Software Projects
+
+### Squid Proxy Cache
+
+http://www.squid-cache.org/
+
+Besides general performance, stability and code reorganisation improvements, the following is a non-exhaustive list of project milestones and features completed for the Squid project.
+
+* (1999) initial storage modularisation work (modio)
+* (1999) initial event-driven network work (commloops)
+* (2000) integration and testing of initial COSS storage layer work
+* (2000) changes to Squid-2.5 to decrease memory allocator use and improve general performance
+* (2002) initial Squid-3 tidyup and codebase fork
+* (2006) integration and debugging of WCCPv2 support
+* (2006) async disk IO support for COSS
+* (2006) production-ready COSS support for Squid-2.6
+* (2006) production-ready event-driven network IO support for Squid-2.6
+* (2006) kqueue, /dev/poll support for Squid-2.6
+* (2006) performance work: client-side request parsing rewrite for Squid-2.7 and Squid-3.0
+* (2008) Development of client-side delay pool support - limiting bandwidth use per-connection
+* (2008) Development of delayed forwarding support for POST
+
+### Lusca Proxy Cache
+
+This is a non-exhaustive list of open source work either committed back or will be committed back to the public Lusca repository.
+
+* (2008) Modularisation work - migrating most support and framework code into separate libraries with a defined, minimalistic dependency graph
+* (2008) Initial Ipv6 socket framework support
+* (2008) Ipv6 ACL, DNS and client database support
+* (2009) Solaris event framework support for network IO
+* (2009) Performance improvements with the thread based async IO support
+* (2009) Introduction of fully transparent proxy support - Linux TPROXY2, Linux TPROXY4, FreeBSD TPROXY
+* (2009) Rewritten storage startup and cache index rebuilding code - dramatically improving rebuild time for AUFS
+* (2010) Per-domain traffic billing support - suitable for providing peak and average traffic levels suitable for 95% percentile billing
+
+### FreeBSD
+
+http://www.freebsd.org/
+
+* (1998) Extending libalias to support NAT'ing IP protocols (for GRE/IPIP NAT)
+* (1998) Simple extension to ping to timeout after a fixed length of time
+* (1998) A simple exec image activator to support Java executables
+* (1999) fsck(8) modularisation for multiple-filesystem support
+* (1999) Local VM/buffer cache support to wire specific FFS structures in place to speed up innd performance
+* (1999) Changes to dumpdev support to allow dumping to swap before single-user startup had completed
+* (1999) Work on usermount support
+* (1999) Development of a cut-down inode-only FFS for use in proxy/cache and news server environments
+
+* (2008) Fully transparent TCP proxying
+* (2009) HVM/Xen work - clock driver, network driver stability, initial SMP stability
+* (2009) GEOM module to support logging individual disk operations for analysis and profiling
+* (2010) FreeBSD/MIPS related work on the UBNT Routerstation Pro (Atheros AR71xx)
+* (2010) Debugged calibration and beacon related issues in the Atheros 5416/9160 driver
+* (2010) Extended the FreeBSD/MIPS Atheros SoC support to the AR9132 SoC
+* (2010) Added AR910x Wireless MAC/radio support for the Atheros AR9132 SoC
+* (2010) Prototyped 802.11n support for the AR9100/AR9160/AR9280 chipsets
+* (2011) Added AR9287 support
+* (2011) Extended the FreeBSD/MIPS Atheros SoC support to the AR724x SoC
+* (2011) Completed the initial 802.11n support for all currently supported 11n chipsets
+* (2011) Implemented a test radar detection module for ath(4), as part of regulatory requirement work
+* (2012) Implemented 802.11n TX aggregation support for the ath(4) driver
+* (2012) Fixed reset and channel change handling in ath(4) for correct 802.11n behaviour
+* (2012) Added support for Atheros SoC platforms with calibration/PCI configuration data in SPI flash, in order to run on the various embedded hardware (Ubiquiti, TP-Link, D-Link) available
+* (2012) Implemented and debugged the 802.11n BAR TX support for ath(4) TX aggregation
+* (2013) Added Atheros AR9380 and later chipset support
+* (2013) Added Atheros AR933x SoC support
+* (2013) Debugged MIPS platform issues with FreeBSD/MIPS on mips74k superscalar cores
+* (2013) Added Atheros AR934x SoC support
+* (2013) Debugged performance issues in if_lagg, leading to locking related changes
+* (2013) Updated Intel Sandy Bridge / Sandy Bridge Xeon support in hwpmc
+* (2013) Worked with Intel to fix corner case issues in ixgbe transmit packet handling and interrupt handling
+* (2013) Added support to the FreeBSD Intel 802.11n NIC driver for Centrino 6xxx, 2xxx, 1xx devices
+* (2014) Added Atheros AR8327 switch PHY support
+* (2014) Added support for kqueue notification of sendfile() completion
+* (2014) Debugged various performance/behavioural issues with flowtable, making it more predictable over time
+* (2015) Added QCA955x SoC and wifi support.
+* (2015) Added QCA953x SoC and wifi support.
+* (2015) Implemented 802.11n transmit and receive support for the Realtek RTL8188SU/8189SU USB adapters
+* (2015) Implemented initial NUMA memory allocator configuration support in FreeBSD-11.
+* (2016) Added 802.11n support to Realtek 802.11n USB devices (RTL8188EU, RTL8192CU)
+* (2016) Added A-MSDU encapsulation support to net80211
+
+### Xen (general)
+
 http://www.xensource.com/
 
 * (2009) Extended pygrub to support FreeBSD disk label information for booting
 
-## IRCd-hybrid
+### IRCd-hybrid
+
 http://www.ircd-hybrid.org/
+
 (2001) Rewrote the majority of the network/socket code in ircd-hybrid-7 and replaced it with a derivative of my Squid-2.5 network core
 (2001) Reimplemented the line-based socket buffer code which was then extended to support reference-count buffer IO
 (2001) Reimplemented much of the parser code
 (2001) Introduced flexible DoS mitigation
 
-## Zebra
+### Zebra
+
 http://www.quagga.net
 
 I worked on a local Zebra codebase at InterXion as part of their plans to roll out a Europe-wide virtual internet exchange.
@@ -344,17 +383,18 @@ I worked on a local Zebra codebase at InterXion as part of their plans to roll o
 * (2001) local changes to support AS path rewriting
 * (2001) live RPSL database integration
 
-## Other
+### Other
+
 * Apachebench (2008) - modified to use libevent and IPv6; available on google code - http://code.google.com/p/apachebench-adrian
 * httperf (2008) - reimplemented the networking and event scheduling to use libevent
 
 Various projects available at http://github.com/erikarn/ .
 
-# Hobbies
+## Hobbies
 
 Embedded hardware development, robotics, musician.
 
-# References
+## References
 
 Available on request.
 
