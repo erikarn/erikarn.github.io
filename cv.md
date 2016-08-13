@@ -58,6 +58,7 @@ solving, debugging and troubleshooting across all disciplines.
 ## Employment History
 
 ### Eva Automation, Inc. (Redwood City, CA) - November 2015 - August 2016
+
 ### Bowers & Wilkins (Redwood City, CA) - August 2016 -
 
 Eva Automation acquired Bowers & Wilkins early in 2016.
