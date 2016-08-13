@@ -346,10 +346,11 @@ http://www.freebsd.org/
 * (2014) Debugged various performance/behavioural issues with flowtable, making it more predictable over time
 * (2015) Added QCA955x SoC and wifi support.
 * (2015) Added QCA953x SoC and wifi support.
-* (2015) Implemented 802.11n transmit and receive support for the Realtek RTL8188SU/8189SU USB adapters
+* (2015) Implemented 802.11n transmit and receive support for the Realtek RTL8188SU/8189SU USB adapters.
+* (2015) Completed the initial Receive Side Scaling (RSS) implementation in FreeBSD for both Intel 10/40G drivers and IP/TCP/UDP networking code.
 * (2015) Implemented initial NUMA memory allocator configuration support in FreeBSD-11.
-* (2016) Added 802.11n support to Realtek 802.11n USB devices (RTL8188EU, RTL8192CU)
-* (2016) Added A-MSDU encapsulation support to net80211
+* (2016) Added 802.11n support to Realtek 802.11n USB devices (RTL8188EU, RTL8192CU).
+* (2016) Added A-MSDU encapsulation support to net80211.
 * (2016) Added initial 802.11n (BCM4312, BCM4322) chipset support to the Broadcom softmac driver (bwn).
 * (2016) Added 5GHz transmit/receive handling in the Broadcom softmac driver (bwn).
 
