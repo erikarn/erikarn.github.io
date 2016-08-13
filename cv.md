@@ -37,7 +37,7 @@ solving, debugging and troubleshooting across all disciplines.
 * Operating systems - Kernel-level development with FreeBSD and Linux. Administration and application development in FreeBSD, Solaris and Linux. Network application development for various versions of Windows.
 * Database services - Application developer and administrator using PostgreSQL and MySQL. Some Oracle application developer exposure.
 * Web services - All aspects of Squid development, troubleshooting, performance work, optimisation and deployment. Exposure to Cisco ACE and Cache Engines. Forward and reverse proxy environments. Development and administration experience with Lighttpd, Nginx. Development experience with node.js and Django.
-* Embedded systems - Atheros MIPS SoC (AR71xx, AR724x, AR913x, AR933x, AR934x, QCA955x, QCA953x.) ARM systems (Broadcom, Qualcomm Atheros.) Exposure to 68HC11. Extensive experience with Atmel AVR and Arduino based designs. Some exposure to PIC. Commercial development on Z180 hardware.
+* Embedded systems - Atheros MIPS SoC (AR71xx, AR724x, AR913x, AR933x, AR934x, QCA955x, QCA953x.) ARM systems (Broadcom BCM7444, Qualcomm Atheros IPQ801x.) Exposure to 68HC11. Extensive experience with Atmel AVR and Arduino based designs. Some exposure to PIC. Commercial development on Z180 hardware.
 * Systems Programming - Event-driven network and disk IO; POSIX threads, distributed message passing, various RPC flavours, multi-thread and multi-process SMP applications.
 * Wireless Technology - 802.11abgn, 802.11ac, 802.11s mesh, 2/5GHz, some 900MHz/700MHz experience; TDMA; Bluetooth, Bluetooth-LE
 * Wireless Development - Ongoing driver development of the Atheros HAL wireless driver in FreeBSD. Maintainer/lead of the FreeBSD net80211 802.11 wireless stack. Other driver maintenance (Intel, Realtek.)
@@ -57,11 +57,15 @@ solving, debugging and troubleshooting across all disciplines.
 
 ## Employment History
 
-### Eva Automation, Inc. (Redwood City, CA) - November 2015 -
+### Eva Automation, Inc. (Redwood City, CA) - November 2015 - August 2016
+### Bowers & Wilkins (Redwood City, CA) - August 2016 -
+
+Eva Automation acquired Bowers & Wilkins early in 2016.
 
 #### Wifi Team Lead
 
 * Working on Broadcom ARM and 802.11ac hardware
+* Working on Qualcomm Atheros ARM, 802.11n and 802.11ac hardware
 * Wifi hardware validation (lightpoint)
 * Embedded Linux development and driver debugging
 * Audio and video distribution
