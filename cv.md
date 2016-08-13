@@ -15,7 +15,7 @@ hardware platforms, networked services; IoT devices; internet infrastructure
 and wireless technologies.
 
 ## Technical Skills
-Adrian Chadd has over 15 years experience in various networking, systems and
+Adrian Chadd has over 20 years experience in various networking, systems and
 software related areas. He has worked in a variety of environments including
 technology startups, telecommunications carriers, corporate, consulting,
 academic and government organisations.
