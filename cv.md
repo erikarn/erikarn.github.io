@@ -11,7 +11,7 @@ title: Resume
 ## Career Objectives
 
 Seeking challenging roles designing, implementing and troubleshooting new
-hardware platforms and internet of things devices; internet infrastructure
+hardware platforms, networked services; IoT devices; internet infrastructure
 and wireless technologies.
 
 ## Technical Skills
