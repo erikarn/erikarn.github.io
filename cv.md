@@ -65,6 +65,8 @@ Eva Automation acquired Bowers & Wilkins early in 2016.
 
 #### Wifi Team Lead, Architect
 
+Moved into team lead in early 2017 and networking architecture lead in mid 2017.
+
 * Working on Broadcom ARM and 802.11ac hardware
 * Working on Qualcomm Atheros ARM, 802.11n and 802.11ac hardware
 * Wifi hardware validation (lightpoint)
