@@ -63,14 +63,16 @@ solving, debugging and troubleshooting across all disciplines.
 
 Eva Automation acquired Bowers & Wilkins early in 2016.
 
-#### Wifi Team Lead
+#### Wifi Team Lead, Architect
 
 * Working on Broadcom ARM and 802.11ac hardware
 * Working on Qualcomm Atheros ARM, 802.11n and 802.11ac hardware
 * Wifi hardware validation (lightpoint)
-* Embedded Linux development and driver debugging
-* Audio and video distribution
-* Further information available upon request.
+* Involved in the design and bring-up of the next generation audio hardware at Bowers and Wilkins
+* Embedded Linux development and driver debugging, including wifi, ethernet, storage and i2c peripherals
+* Working on platform architectural level design and integration across multiple platform, media and application groups
+* Developed a novel low latency (< 1uS) synchronised audio / video transport mechanism using Qualcomm Atheros 802.11n hardware for use in surround sound applications
+* Low latency, synchronised audio and video distribution
 
 ### Norse Corp, Inc. (San Mateo, CA) - May 2014 - November 2015
 
