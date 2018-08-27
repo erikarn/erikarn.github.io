@@ -3,6 +3,11 @@ layout: default
 title: TS-2000 notes
 ---
 
+# Kenwood TS-2000
+
+This is where I'm keeping notes about my experiences running a TS-2000
+for well, everything it does.
+
 ## HF - RX sensitivity issues
 
 There's been a lot of discussion around the TS-2000 RX sensitivity compared to other radios.
