@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Kenwood pages
+title: Radios
 ---
 
-Here's a set of things I've collected on the internet about Kenwood Amateur radio devices.
+Here's a set of things I've collected on the internet about Amateur radio devices.
 This includes radios, tuners and amplifiers.
 
 If it's here it's likely I've repaired it!
