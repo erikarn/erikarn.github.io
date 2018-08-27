@@ -13,7 +13,9 @@ for well, everything it does.
 There's been a lot of discussion around the TS-2000 RX sensitivity compared to other radios.
 Here's at least one piece of research into what may be going on.
 
-https://forums.qrz.com/index.php?threads/ts-2000-receiver-sensitivity-mystery-solved.466335/
+<https://forums.qrz.com/index.php?threads/ts-2000-receiver-sensitivity-mystery-solved.466335/>
+
+* [ts-2000-rx-sensitivity-hf.pdf](ts-2000-rx-sensitivity-hf.pdf)
 
 There are other threads about S-meter calibration being not quite equivalent
 to other rigs and tweaking that; that's less interesting/important.
@@ -22,8 +24,11 @@ to other rigs and tweaking that; that's less interesting/important.
 
 There's also been a lot of discussion around TS-2000 RX sensitivity on VHF/UHF.
 
-http://www.pa3guo.com/ts2000_mod_ak2f.pdf
-http://www.pa3guo.com/ts2000_rx.html
+<http://www.pa3guo.com/ts2000_mod_ak2f.pdf>
+<http://www.pa3guo.com/ts2000_rx.html>
+
+ * [ts2000_mod_ak2f.pdf](ts2000_mod_ak2f.pdf)
+ * [ts2000_mod_uu2jj.pdf] (ts2000_mod_uu2jj.pdf)
 
 This was apparently fixed in later TS-2000 releases (TODO: which year?)
 
