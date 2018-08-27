@@ -8,7 +8,6 @@ This includes radios, tuners and amplifiers.
 
 If it's here it's likely I've repaired it!
 
-
 ## Kenwood hybrid HF radios
 
 (TS-520SE)[TS-520SE]
@@ -20,6 +19,7 @@ If it's here it's likely I've repaired it!
 (TS-440)[TS-440]
 (TS-660)[TS-660]
 (TS-680)[TS-680]
+(TS-2000)[TS-2000]
 
 ## Kenwood VHF/UHF radios
 
@@ -33,4 +33,3 @@ If it's here it's likely I've repaired it!
 ## Kenwood amplifiers
 
 (TL-922)[TL-922]
-
