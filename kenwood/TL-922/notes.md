@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TS-922 notes
+title: TL-922 notes
 ---
 
 # Kenwood TL-922
@@ -73,10 +73,11 @@ I've done the following to my amplifier.
 
  * Replaced a shorted plate current meter
  * Diode + capacitor for meter protection
+ * 10/15m band mod was performed but the capacitors were on the wrong side of
+   the inductor - fixed; 10/15m works fine now.
 
 The TODO items.
 
- * Figure out 15/10m issues - infinite VSWR, likely a busted input side bandswitch
  * glitch resistor
  * B+ fuse
  * filament fuse
