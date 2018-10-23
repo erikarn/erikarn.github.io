@@ -75,12 +75,12 @@ I've done the following to my amplifier.
  * Diode + capacitor for meter protection
  * 10/15m band mod was performed but the capacitors were on the wrong side of
    the inductor - fixed; 10/15m works fine now.
+ * filament fuse
 
 The TODO items.
 
  * glitch resistor
  * B+ fuse
- * filament fuse
  * replacement zener diode, just to be safe
  * (maybe) slow-start kit?
  * (maybe) replace the filter capacitor bank?
