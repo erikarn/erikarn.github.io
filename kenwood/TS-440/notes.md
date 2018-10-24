@@ -42,6 +42,8 @@ a lack of solder being used.  In a lot of cases I've seen barely enough
 solder on each pad and it cracks very very easily.  A lot of repairs can
 be summarised as "take out each board, touch up every joint."
 
+![Image of a dry joint](ts440s-dry-1.jpg)
+
 ### Finals
 
 The finals are either in great shape or someone's run the rig into the ground.
