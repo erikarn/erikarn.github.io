@@ -67,7 +67,7 @@ super easy to hook into optoisolators which then you run into the FTDI chip.
 
 (TBD - just post a circuit diagram about it!)
 
-### VCO1 Repair/Alignmen
+### VCO1 Repair/Alignment
 
 (tbd)
 
