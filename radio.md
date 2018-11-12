@@ -35,3 +35,8 @@ If it's here it's likely I've repaired it!
 ## Kenwood amplifiers
 
  [TL-922](kenwood/TL-922/notes)
+
+## Heathkit amplifiers
+
+ [SB-200](heathkit/SB-200/notes)
+
