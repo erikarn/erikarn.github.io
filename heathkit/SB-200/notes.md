@@ -41,3 +41,4 @@ incorrectly.
  * [SB-200 Manual.pdf](SB-200 Manual.pdf)
  * [sb200-eham-low-power-on-80m.pdf](sb200-eham-low-power-on-80m.pdf)
  * SB-200 on AM notes - [https://forums.qrz.com/index.php?threads/sb200-on-am.347818/](https://forums.qrz.com/index.php?threads/sb200-on-am.347818/)
+ * WirelessGirl - Heathkit SB-200 Mods(https://photos.app.goo.gl/uUWF2tBpyaD15rdt9)
