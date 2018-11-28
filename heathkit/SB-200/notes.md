@@ -12,11 +12,28 @@ incorrectly.
 ## General notes
 
  * Expect 600-700W power output on 80/40, down to 400-500W on 10m
+ * It's rated at 500W CW and 1000W PEP SSB.  Anything between 500-600W is good.
+ * Don't overdo it! It'll not be acting linearly.
 
 ## Tuning notes
 
- * Maximum grid current for a pair of 572Bs is ~ 100mA
- * Normal operation is around 70ma - 80mA
+From the manual:
+
+ * Set load at minimum (left), set tune at the centre of the band
+ * Set low output from exciter, look for around 200mA plate current on the meter
+ * Adjust Tune to maximise output power - this should be dipping the plate
+ * Adjust power up a little
+ * Re-adjust Tune to maximise output power - should dip the plate again
+ * And start adjusting Load to peak power; should be dipping plate each time
+ * Repeat until maximum CW exciter power
+ * If grid current peaks above the white section (ie, 100mA) - increase load to back it off
+ * If plate current peaks above 500mA then decrease exciter power
+
+Limits:
+
+ * Maximum grid current for a pair of 572Bs is ~ 100mA (50mA each)
+ * Normal grid currnet operation is around 70ma - 80mA
+ * Maximum plate current for the pair is ~ 500mA (250mA-275mA each)
  * Grid current should peak when plate tuning causes a plate current dip
 
 ## Maximum power issues on 40/80m
@@ -41,4 +58,4 @@ incorrectly.
  * [SB-200 Manual.pdf](SB-200 Manual.pdf)
  * [sb200-eham-low-power-on-80m.pdf](sb200-eham-low-power-on-80m.pdf)
  * SB-200 on AM notes - [https://forums.qrz.com/index.php?threads/sb200-on-am.347818/](https://forums.qrz.com/index.php?threads/sb200-on-am.347818/)
- * WirelessGirl - Heathkit SB-200 Mods(https://photos.app.goo.gl/uUWF2tBpyaD15rdt9)
+ * [WirelessGirl - Heathkit SB-200 Mods](http://www.wirelessgirl.net/Projects/Heathkit-SB200-Mods/)
