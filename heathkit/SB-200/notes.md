@@ -15,6 +15,12 @@ incorrectly.
  * It's rated at 500W CW and 1000W PEP SSB.  Anything between 500-600W is good.
  * Don't overdo it! It'll not be acting linearly.
 
+## Using it with a solid state rig
+
+ * Note the ALC voltage is .. very negative, and it could damage your radios.  Kenwoods for example don't need more than around -9v for ALC to shut down transmit.
+ * So either build a circuit to clamp the ALC at -9v (and realise it could swing quite a bit more, so be careful on your choice of zener) or don't hook up the ALC line and be double careful.
+ * The relay circuit is also -110V DC; that's fine for a TS-440S but other radios using transistors will be unhappy.  Make sure you install the soft-key module.
+
 ## Tuning notes
 
 From the manual:
