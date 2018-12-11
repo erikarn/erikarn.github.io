@@ -11,9 +11,9 @@ incorrectly.
 
 ## General notes
 
- * Expect 600-700W power output on 80/40, down to 400-500W on 10m
- * It's rated at 500W CW and 1000W PEP SSB.  Anything between 500-600W is good.
+ * It's rated at 600W CW and 1000W PEP SSB.  Anything between 500-600W is good.
  * Don't overdo it! It'll not be acting linearly.
+ * A well maintained rig will output 700-800W on the lower bands but the grid current is pretty high.  Don't do it - limit drive output to whatever you need to be able to peak/load at 600W output.
 
 ## Using it with a solid state rig
 
@@ -31,7 +31,7 @@ From the manual:
  * Adjust power up a little
  * Re-adjust Tune to maximise output power - should dip the plate again
  * And start adjusting Load to peak power; should be dipping plate each time
- * Repeat until maximum CW exciter power
+ * Repeat until you hit 600W output power
  * If grid current peaks above the white section (ie, 100mA) - increase load to back it off
  * If plate current peaks above 500mA then decrease exciter power
 
@@ -42,15 +42,19 @@ Limits:
  * Maximum plate current for the pair is ~ 500mA (250mA-275mA each)
  * Grid current should peak when plate tuning causes a plate current dip
 
-## Maximum power issues on 40/80m
+## Maximum power issues on different bands
 
  * Aging tubes can manifest as not being able to load down on 80 and 40m
    input - the load cap is fully counterclockwise for max power and can't
    dip.
- * BUT - the amp also doesn't present a 50+j0 impedance on all bands,
-   especially 40m and 80m.  So although tube transmitters will just output
+ * BUT - the amp also doesn't present a 50+j0 impedance on all bands.
+   So although tube transmitters will just output
    full power, solid state transcievers will begin reducing power above 1.5:1
    and thus you may not be outputting 100w.
+ * I've had to use my tuner on the TS-440S for 15 and 10m to stop the SWR to
+   be terrible, but it's touchy - the SWR at the exciter changes as tune/load
+   happens so the autotuner needs to be kicked in and re-run a few times during
+   tuning.
 
 ## AM usage
 
@@ -58,6 +62,14 @@ Limits:
  * Then reduce AM carrier power down to the SB-200 outputs 100W AM carrier
  * Use this; don't key down for more than a couple minutes at a time and all
    should be OK.
+
+## TODO items to investigate
+
+ * Look at what it'll take to make a proper ALC reducing circuit - see if
+   ALC can be asserted above 600W to keep the amplifier from being overdriven.
+ * Add HV fuse, glitch resistor.
+ * Maybe add a series input resistor to limit the input power - ie, 100W exciter
+   but only 50-60W into the amplifier input tank.
 
 ## Documents and Links
 
