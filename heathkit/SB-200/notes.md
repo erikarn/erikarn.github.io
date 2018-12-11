@@ -14,6 +14,7 @@ incorrectly.
  * It's rated at 600W CW and 1000W PEP SSB.  Anything between 500-600W is good.
  * Don't overdo it! It'll not be acting linearly.
  * A well maintained rig will output 700-800W on the lower bands but the grid current is pretty high.  Don't do it - limit drive output to whatever you need to be able to peak/load at 600W output.
+ * The HV should be around 2300V - if it's not then (after carefully discharging everything) check all of the meter resistors for correct values and replace accordingly
 
 ## Using it with a solid state rig
 
@@ -70,6 +71,8 @@ Limits:
  * Add HV fuse, glitch resistor.
  * Maybe add a series input resistor to limit the input power - ie, 100W exciter
    but only 50-60W into the amplifier input tank.
+ * Write up something on checking the metering resistosr to ensure that they're still
+   within spec.
 
 ## Documents and Links
 
