@@ -1,0 +1,115 @@
+                        January 22, 1976
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-1
+
+                       Meter Switch Lugs Shorting To Bottom Cover
+
+The meter switch supplied in the kit may have long lugs on the switch,
+which can result in shorting of lugs 6 and 7 of the switch to the bottom
+cover.  Shorting lug 6 of the switch to the bottom cover will cause the
+antenna relay to close when the meter switch is in the "grid" position,
+and release in the "plate" position.
+
+Shorting of lug 7 to the bottom cover will cause antenna relay closure in
+any position of the meter switch.
+
+These switch lugs should be bent to prevent shorting.
+------------------------------------------------------------------------------------------------------------------
+                        February 3, 1976
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-2
+
+                             Replacement Fan Blades
+
+The PN 266-21 fan blade is no longer available.  The PN 266-900 blade
+will be used as a replacement.  When using the new blade, the set screw
+must also be changed.
+-------------------------------------------------------------------------------------------------------------------
+                        December 5, 1977
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-3
+
+                        Difficulty in Mounting Capacitor
+
+++++Information not available at this time++++
+-------------------------------------------------------------------------------------------------------------------
+                        May 15, 1979
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-4
+
+                                  Sheet Metal Screws Will Not Tighten
+
+If the perforated covers will not secure properly due to enlarged sheet
+metal holes, install a 6-32 speednut [PN 252-22] over the lip and
+surrounding hold.  The 6-32 X 3/8" sheet metal screw [PN 250-8] will then
+tighten securely.
+
+Using the speednuts does not noticeably degrade the products' shielding
+capabilities.
+-----------------------------------------------------------------------------------------------------------------
+                        January 21, 1980
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-5
+
+                Apparent Self-Oscillation When Used with Kenwood
+Transceivers
+
+++++Information not available at this time++++
+------------------------------------------------------------------------------------------------------------------
+                        February 7, 1980
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-6
+
+                                Presetting the Loading Capacitor
+
+++++Information not available at this time++++
+-----------------------------------------------------------------------------------------------------------------
+                        March 7, 1980
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-7
+
+                               Interfacing the Linear to Kenwood Exciters
+
+++++Information not available at this time++++
+------------------------------------------------------------------------------------------------------------------
+                        September 2, 1980
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-8
+
+                          RFC3 Overheats and Circuit Breakers Trip
+
+++++Information not available at this time++++
+------------------------------------------------------------------------------------------------------------------
+                        April 6, 1984
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-9
+
+                     Interfacing The Linear To Kenwood Exciters
+
+The ALC voltage to Kenwood transceivers and transmitters should not
+exceed -8 volts.  To Ensure the proper voltage to the Kenwood, add:
+
+An 8 volt zener diode [PN 56-621] across the ALC connector on the back of
+the amplifier.  Connect the banded end of the diode to the ground lug.
+
+Adding a control in the ALC line (as instructed in previous bulletins) to
+control the level of ALC voltage doesn't always work.  This control loads
+the ALC line so much that very little ALC voltage is developed, resulting
+in the exiter overdriving the linear,  In units which have the control
+installed and the operation is still unsatisfactory, return the ALC
+circuit to its original design and install the zener diode.
+-------------------------------------------------------------------------------------------------------------------
+                        March 31, 1988
+SB-200                                          Bulletin No:
+1 KW Linear Amplifier                           SB-200-10
+
+                          Variable Load Capacitor [PN 26-97] NLA
+
+The #26-97 load capacitor used at C28 in the earlier SB-200 Linear
+Amplifiers are no longer available from our vendors.  A #26-160 variable
+capacitor is now used as a replacement.  Installing the new capacitor
+requires drilling new mounting holes in the chassis and rerouting the
+wiring.  When Heath Parts Replacement receives an order for the #26-97
+capacitor, they'll send the #26-160 capacitor and an instruction sheet
+[PN 597-4951] to tell the customer how to install the capacitor.
+-------------------------------------------------------------------------------------------------------------------
