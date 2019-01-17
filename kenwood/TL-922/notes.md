@@ -86,6 +86,8 @@ The TODO items.
  * (maybe) replace the filter capacitor bank?
  * low-voltage relay switch kit (ie, so I don't need 100v shorted to ground
    to turn on the amplifier.)
+ * The switch board controlling the thermal / delay cutoff needs rewiring when
+   you switch between 110v and 220v.  This needs to be done!
 
 ## PDFs
 
