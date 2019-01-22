@@ -47,3 +47,7 @@ You can't control TX of the rig through CAT control if you want audio to come
 in through the ACC3 jack.  There's a specific PTT line that is "use this audio
 input line and mute the MIC" which you have to use.
 
+
+## Documentation
+
+* [ts2000_service_manual.pdf](ts2000_service_manual.pdf)
