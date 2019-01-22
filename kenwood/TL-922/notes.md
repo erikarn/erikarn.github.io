@@ -67,6 +67,27 @@ The not-quite-useful modifications:
  * The comments on the grounding wire to ground the variable capacitor
    to the plate seems questionable at best.  It's likely not worth doing.
 
+## Tuning
+
+ * SSB: 1100W is a good target
+ * CW: 700W is a good target
+ * Idle plate current in transmit for CW is 100mA; SSB is 200mA
+ * Tuning for CW: plate current (Ip) < 650mA, grid current (Ig) below 200mA.
+ * Dip plate current using tuning.
+ * Peak RF output using load; then re-dip plate current.
+ * Tuning for SSB: tune for CW, flip to SSB (see below); set CW carrier
+   minimum (ie don't dump 100W into the amplifier in SSB mode); increase
+   CW carrier until around 1000W-1100W output and tune
+
+Note that so far I've been unable to find an output power peak using load
+on 80m and 160m; I may need to re-check the bandswitch and padding capacitors.
+
+Also, don't try to run the amplifier at the load knob at 0 or 1 right now;
+it may be too little coupling there and grid current could get a bit hilariously
+big and cause things to go "pop!".  It can also lead to higher grid current
+than needed and cause the output to go non-linear.  So, don't do it.
+Over-couple things a bit and just don't run too much power too long!
+
 ## My local repairs
 
 I've done the following to my amplifier.
@@ -76,16 +97,18 @@ I've done the following to my amplifier.
  * 10/15m band mod was performed but the capacitors were on the wrong side of
    the inductor - fixed; 10/15m works fine now.
  * filament fuse
+ * low-voltage relay switch kit (ie, so I don't need 100v shorted to ground
+   to turn on the amplifier.)
 
 The TODO items.
 
+ * replace the 120v lead to the soft-key board with wire that isn't black!
+   (it's all I had on me for 120v!)
  * glitch resistor
  * B+ fuse
  * replacement zener diode, just to be safe
  * (maybe) slow-start kit?
  * (maybe) replace the filter capacitor bank?
- * low-voltage relay switch kit (ie, so I don't need 100v shorted to ground
-   to turn on the amplifier.)
  * The switch board controlling the thermal / delay cutoff needs rewiring when
    you switch between 110v and 220v.  This needs to be done!
 
@@ -94,3 +117,7 @@ The TODO items.
  * [TL-922A 10 Meter Mod instructions.pdf](TL-922A 10 Meter Mod instructions.pdf)
  * [TL-922OM.pdf](TL-922OM.pdf)
  * [TL-922_Service_Manual.pdf](TL-922_Service_Manual.pdf)
+
+## Links
+
+ * [https://www.w8ji.com/loading_amplifier.htm](https://www.w8ji.com/loading_amplifier.htm)
