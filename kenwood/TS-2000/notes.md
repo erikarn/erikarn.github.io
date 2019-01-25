@@ -36,6 +36,23 @@ And local copies of the above pages:
 
 This was apparently fixed in later TS-2000 releases (TODO: which year?)
 
+## Filter board failure - attenuated signals, static crashes
+
+Another fun one - failure in a filter board component causing multiple filter
+diodes to be pulled down, causing noise.
+
+* [TS2000_20_to_30db_Attenuated_Receive_Signals.pdf](TS2000_20_to_30db_Attenuated_Receive_Signals.pdf)
+
+## Filter failures
+
+There was also an issue with how some ceramic filters were fitted.
+Kenwood didn't use a DC blocking capacitor on one side of the filter
+and they eventually fail.
+
+I am not sure if this was ever fixed in later model TS-2000's.
+
+* [TS-2000-receiver-crackling-noise-problem-Repair-procedure.pdf](TS-2000-receiver-crackling-noise-problem-Repair-procedure.pdf)
+
 ## Finals replacements
 
 There were issues with the TS-2000 finals.  I should go gather some more
@@ -51,3 +68,4 @@ input line and mute the MIC" which you have to use.
 ## Documentation
 
 * [ts2000_service_manual.pdf](ts2000_service_manual.pdf)
+* [TS-2000-Owner-Manual.PDF](TS-2000-Owner-Manual.PDF)
