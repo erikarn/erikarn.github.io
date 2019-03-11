@@ -19,8 +19,10 @@ If it's here it's likely I've repaired it!
  [TS-140](kenwood/TS-140/notes)
  [TS-430](kenwood/TS-430/notes)
  [TS-440](kenwood/TS-440/notes)
+ [TS-450](kenwood/TS-690/notes)
  [TS-660](kenwood/TS-660/notes)
  [TS-680](kenwood/TS-680/notes)
+ [TS-690](kenwood/TS-690/notes)
  [TS-2000](kenwood/TS-2000/notes)
 
 ## Kenwood VHF/UHF radios
