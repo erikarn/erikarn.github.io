@@ -28,6 +28,8 @@ L9:
 L6/L7:
  * 1uH choke - 18 turns... ~ 0.7uH on mine
 
+L10/L11:
+ * ~ 11uH
 
 ## PDFs
 
