@@ -8,6 +8,38 @@ title: TS-2000 notes
 This is where I'm keeping notes about my experiences running a TS-2000
 for well, everything it does.
 
+## Serial numbers
+
+Kenwood serial numbers issued from 1999 come in 2 formats. The format used from 1999 until approximately August 2008 is numeric:
+
+ * First digit is the year code, add 1998 to get year. If first digit
+   is 0 add 10 to 1998. Next 2 digits are the month code starting with
+   01 which is April (beginning of Japanese tax year).
+   Months 10,11 & 12 will be Jan, Feb, Mar of the next year so add 1 to the year.
+ 
+The format adopted from approximately August 2008 is alphanumeric:
+
+* The first character is the decade A=2000, B=2010, C=2020.
+  The second character would be the year of the decade from 0 to 9.
+  The third character is the month. 1-Jan, 2-Feb, 3-Mar, ...., 9-Sep, A-Oct, B-Nov, C-Dec.
+
+Some examples:
+
+ * 301xxxxx = April 2001
+ * 311xxxxx = February 2002 
+ * 313xxxxx = April 2002 
+ * 810xxxxx = January 2007 - Beginning of defective filters
+ * 909xxxxx = December 2007 
+ * 910xxxxx = January 2008 
+ * 001xxxxx = April 2008 
+ * 005xxxxx = August 2008
+ * A88xxxx = August 2008
+ * A8Bxxxx = November 2008
+ * A91xxxx = January 2009
+ * A98xxxx = August 2009 - End of defective filters
+ * A9Cxxxx = December 2009 - Beginning of MOSFET finals
+ * B02xxxx = February 2010
+
 ## HF - RX sensitivity issues
 
 There's been a lot of discussion around the TS-2000 RX sensitivity compared to other radios.
@@ -49,14 +81,18 @@ There was also an issue with how some ceramic filters were fitted.
 Kenwood didn't use a DC blocking capacitor on one side of the filter
 and they eventually fail.
 
-I am not sure if this was ever fixed in later model TS-2000's.
+Many TS-2000's (Including the X model) in the serial number range 810xxxx - A98xxxx
+(dates January 2007 - August 2009) were produced with defective filters.
 
 * [TS-2000-receiver-crackling-noise-problem-Repair-procedure.pdf](TS-2000-receiver-crackling-noise-problem-Repair-procedure.pdf)
 
 ## Finals replacements
 
-There were issues with the TS-2000 finals.  I should go gather some more
-information and post it here.
+There were issues with the TS-2000 finals.
+
+They were initially BJT finals like previous HF rigs, but they were migrated
+to MOSFETS around 2008.  Note that it's not possible to retrofit MOSFET finals
+to an older rig as other board changes have occured elsewhere.
 
 ## Rig control
 
