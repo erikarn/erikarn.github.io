@@ -62,6 +62,34 @@ It saves a bunch of headache around things around having to output real RF
 power just to check things - so you don't have to worry about how long
 you leave your radio on and transmitting whilst aligning the VCOs/PLLs.
 
+## Using the transverter socket
+
+The transverter socket is rather nifty on this radio. I do need to do some
+measurements to figure out how strong the signal gets without ALC feedback
+to make sure it doesn't distort at some point.
+
+Here's the pinout with a decent description.
+
+ * Pin 1 Earth
+ * Pin 2 PTT: +12volt on TX. low current (ie, don't drive a relay, drive a transistor.)
+ * Pin 3 Earth
+ * Pin 4 TX 100w PA disable. Active low (ie, connect to earth to disable PA.)
+ * Pin 5 RX input from transverter IF RX output.
+ * Pin 6 ALC input.
+ * Pin 7 TX out to transverter. Low power approx 10mW output.
+ * Pin 8 HF RX ant out. Loop in to pin 5 to bypass the transverter and work on HF.
+
+This allows a TS-430S to be used for both HF and for transverter operation:
+
+ * With the transverter off or in bypass mode, don't connect pin 4 to ground (which
+   allows the PA output) and loop pin 5 to pin 8 to allow the HF SO-239 input to
+   connect to the RF board RX input.
+
+ * To use the transverter, ground pin 4 (to disable the PA when transmitting);
+   disconnect pin 8 (so you don't use the HF SO-239 input); TX signal is on pin 7
+   and feed RX signal in on pin 5.  Use pin 2 for PTT to the transverter.
+
+
 ## PDFs
 
 This is a collection of versions of user manauls and service manuals.
