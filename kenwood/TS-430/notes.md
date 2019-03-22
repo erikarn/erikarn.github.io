@@ -89,6 +89,30 @@ This allows a TS-430S to be used for both HF and for transverter operation:
    disconnect pin 8 (so you don't use the HF SO-239 input); TX signal is on pin 7
    and feed RX signal in on pin 5.  Use pin 2 for PTT to the transverter.
 
+### AM receive frequency response
+
+One of the advantages of a general coverage receiver is the ability to listen to
+short-wave broadcasters from around the world on AM. The TS-430 gives a very good
+performance with the optional AM filter, but the bass response is poor, which
+is unfortunate if you are listening on a large speaker. To improve the bass response,
+locate the IF Unit and increase C45 (.047mF) to a l0mF tantalum then increase C57
+from 0.47 mF to 2.2 mF. You can strap the new components in parallel with the
+existing ones. Watch the polarity on electrolytic capacitors!
+This modification also makes it easier to tune carriers to zero-beat
+against the BFO on SSB.
+
+## Broadcast band AM attenutation
+
+Finally, there is one other source of quality AM signals, and that is the
+standard AM broadcast band of 540 to 1590 kHz. In my TS-430, the sensitivity
+dropped considerably when tuning between 500 kHz and 1600 kHz.Apart from
+making distant AM broadcasts inaudible, this also spoils reception of NAVTEX
+navigational telex transmissions on 518 kHz. The cause was the attenuator
+circuit in the RF unit's 0.5-1.6 MHz bandpass filter; although the circuit
+says R7 should be 22W , a 220W resistor had been installed.
+Bridging this resistor with 27W improved the sensitivity to a very
+respectable level, and there is almost no change now in S-meter
+reading as the dial is tuned past 500 or past 1600 kHz.
 
 ## PDFs
 
