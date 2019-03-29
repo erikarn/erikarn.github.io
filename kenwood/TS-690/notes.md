@@ -31,6 +31,13 @@ L6/L7:
 L10/L11:
  * ~ 11uH
 
+## Interesting links
+
+ * [https://www.qsl.net/wb4kdi/Kenwood/TS-450S/TS-450_HELP.html]
+ * [https://www.qsl.net/wb4kdi/Kenwood/TS-450S/Service%20Bulletins/sb-1036.html]
+ * [https://www.qsl.net/wb4kdi/Kenwood/TS-450S/ts450fun.html]
+ * [https://www.qsl.net/bg4agr/data/mods/kenwood/ts450.htm]
+
 ## PDFs
 
  * [TS-450S_TS-690S_serv.pdf](TS-450S_TS-690S_serv.pdf)
