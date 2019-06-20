@@ -10,6 +10,11 @@ This includes radios, tuners and amplifiers.
 
 If it's here it's likely I've repaired it!
 
+## Kenwood 13-pin DIN accessory jack
+
+There's plenty of variation in the 13 pin accessory jack. I'm keeping notes
+[here](kenwood-acc-pinout.md).
+
 ## Kenwood hybrid HF radios
 
  [TS-520SE](kenwood/TS-520SE/notes)
