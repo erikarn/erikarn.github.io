@@ -30,3 +30,4 @@ Kenwood radios.
  * The TS-440 needs a comparitively obscene amount of audio input to work compared to the other radios. I've had to feed it more than 1v ptp to get it to do the right thing. This requires the "higher audio level" jumper on the Signalink USB to work right.
  * TS-2000 could do with some more description as to what each does!
  * The TS-450 / TS-690 input ground (pin 12) isn't ground ground; it's actually through a 0.001uF capacitor.  I'm assuming they're trying to do a bit of ground loop avoidance here but still, seems a bit weird.
+ * The TS-450 / TS-690 input levels by default are super sensitive and any RF leaking in via poor shielding / choking will distort audio. A common fix is to adjust the PKD pot (VR13) on the IF board to make it require more audio drive.
