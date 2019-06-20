@@ -11,7 +11,7 @@ Kenwood radios.
 | Radio | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- | ---- | ---- | ---- |
 | TS-140 | NC | NC | Receiver output / 300mV / 4.7k | Output ground | Squelch control | NC | NC | Ground | Transmit PTT - MIC mute | NC | Data Input / 10mV | Input ground | PTT (not MIC mute) |
-| TS-440 | NC | NC | Data output | 300mV / 4.7k | Output ground | NC | NC | NC | Ground | MIC mute | Data input - docs say 500mV or less; end up needing 1v PtP to see full SSB modulation | Input ground | PTT |
+| TS-440 | NC | NC | Data output / 300mV / 4.7k | Output ground | NC | NC | NC | Ground | MIC mute | NC | Data input - docs say 500mV or less; end up needing 1v PtP to see full SSB modulation | Input ground | PTT |
 | TS-450 | NC | RTTY input | Receiver output / 300mV / 4.7k | Receiver output ground | Squelch control | NC | NC | Ground | Transmit PTT - MIC mute | NC | Mic audio input | GND | PTT (not MIC mute) |
 | TS-680 | NC | NC | Receiver output / 300mV / 4.7k | Output ground | Squelch control | NC | NC | Ground | Transmit PTT - MIC mute | NC | Data Input / 10mV | Input ground | PTT (not MIC mute) |
 | TS-690 | NC | RTTY input | Receiver output / 300mV / 4.7k | Receiver output ground | Squelch control | NC | NC | Ground | Transmit PTT - MIC mute | NC | Mic audio input | GND | PTT (not MIC mute) |
