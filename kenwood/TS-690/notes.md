@@ -86,6 +86,18 @@ The post is here:
 
 So far so good? The 20m oscillation seems to have gone away.
 
+## IF gain above 12m
+
+This is from WB4KDI:
+
+(TS-690 - 6 Meters)
+There is a pad to decrease the IF gain when AIP is turned off for frequencies above 22 MHz. The service manual claims that the pad is to reduce IF gain so the signal strength meter reading will remain the same as below 20 MHz. Who cares is the signal meter reading increases? That's the purpose of the preamplifier!
+Note that this change will worsen the strong signal handling capability of the receiver on 12 and 10 meters. Make this change only if you need to increase the IF gain to hear weak signals on 22 - 50 MHz.
+
+To disable this pad remove R68 and/or Q14 (R69 and Q17 for 6 meters). If for some reason the signal meter ever needs to be recalibrated at 28 or 50 MHz remember that the signal strength reading has been increased by about 15 db.
+
+Reduce the RF Gain to limit band noise above 22 MHz.
+
 ## Interesting links
 
  * [https://www.qsl.net/wb4kdi/Kenwood/TS-450S/TS-450_HELP.html](https://www.qsl.net/wb4kdi/Kenwood/TS-450S/TS-450_HELP.html)
@@ -96,3 +108,6 @@ So far so good? The 20m oscillation seems to have gone away.
 ## PDFs
 
  * [TS-450S_TS-690S_serv.pdf](TS-450S_TS-690S_serv.pdf)
+ * [ts-450-690-wb4kdi.pdf](ts-450-690-wb4kdi.pdf)
+ * [ts450-asb1036.pdf](ts450-asb1036.pdf)
+ * [ts450-func-summary.pdf](ts450-func-summary.pdf)
