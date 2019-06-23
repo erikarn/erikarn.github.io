@@ -114,6 +114,21 @@ You can't control TX of the rig through CAT control if you want audio to come
 in through the ACC3 jack.  There's a specific PTT line that is "use this audio
 input line and mute the MIC" which you have to use.
 
+## UT-20 / 1.2GHz calibration
+
+When installing the UT-20 and calibrating it, beware that you need to do
+it with the shield on!
+
+> The values from another radio would be just ballpark, better to do a 
+> correct alignment once than try to plug in values and then have to 
+> change them.
+>
+> On the shield if you ordered F10-2366-03 that is the outer shield. 
+> Listed in the Tx/Rx-3 parts list under #506 are the rest of the shields 
+> that are required. Operating or testing the tx without them can damage 
+> the preamp device and they are hard to find. I found out the hard way.
+>
+> Clif Holland KA5IPF
 
 ## Documentation
 
