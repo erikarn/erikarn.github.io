@@ -21,7 +21,7 @@ There's plenty of variation in the 13 pin accessory jack. I'm keeping notes
 
 ## Kenwood Solid-state HF radios
 
- [TS-140](kenwood/TS-140/notes)
+ [TS-140](kenwood/TS-680/notes)
  [TS-430](kenwood/TS-430/notes)
  [TS-440](kenwood/TS-440/notes)
  [TS-450](kenwood/TS-690/notes)
