@@ -94,6 +94,20 @@ They were initially BJT finals like previous HF rigs, but they were migrated
 to MOSFETS around 2008.  Note that it's not possible to retrofit MOSFET finals
 to an older rig as other board changes have occured elsewhere.
 
+## PLL unlock
+
+So, there are two PLL paths (at least) for VFO frequency synthesis.
+One for HF/6 and one for VHF/UHF.  Although the chips can and do fail,
+someone noticed a fun mechanical issue that leads to PLL unlock.
+
+> Problem solved, I removed the cover from I/11 on the C/11 board to check voltages on connector CN514
+>
+> all voltages were present and correct and the radio came back to life :) Put the cover back on and it went back to unlock and 0 volts on TP505. Took the cover back off and it came back to life, tapped on components and it would not go into unlock. Put the cover back on and as I put the last screw in it quit and went into unlock, I pulled the cover back off and screwed the screw back in without the cover and found that the screw when screwed all the way down was going right into pin 1 of CN514 and shorting it out, That is why TP505 was at 0v.
+> These were the original factory screws. So if you have a rig with 0 volts on TP505 check the cover screws on I/11 on board C/11.
+> 73
+> Michelle
+> WB8QGR
+
 ## Rig control
 
 You can't control TX of the rig through CAT control if you want audio to come
