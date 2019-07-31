@@ -15,6 +15,10 @@ If it's here it's likely I've repaired it!
 There's plenty of variation in the 13 pin accessory jack. I'm keeping notes
 [here](kenwood-acc-pinout.md).
 
+## Kenwood optional filters
+
+I've been keeping a list of optional filters [here](kenwood-filters.md).
+
 ## Kenwood hybrid HF radios
 
  [TS-520SE](kenwood/TS-520SE/notes)
