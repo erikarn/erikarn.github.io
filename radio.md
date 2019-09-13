@@ -10,6 +10,12 @@ This includes radios, tuners and amplifiers.
 
 If it's here it's likely I've repaired it!
 
+## Filters
+
+Stuff i keep poking around with filters.
+
+[AM broadcast band filtering](filters/tnote06.pdf)
+
 ## Kenwood 13-pin DIN accessory jack
 
 There's plenty of variation in the 13 pin accessory jack. I'm keeping notes
