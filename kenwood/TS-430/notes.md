@@ -30,7 +30,6 @@ I always pull out the LPF output filter and finals board for inspection.
 I'll always touch up the soldering on the finals board - especially around all
 the transistors on the board.  A fresh coat of thermal grease is also a great idea.
 
-
 ### RF Board Repair/Alignment
 
 (tbd)
@@ -49,6 +48,23 @@ Like a lot of non-computer rigs before it, the TS-430S has separate oscillators
 for LSB, USB and CW.  AM and FM are derived from the CW oscillator.
 
 IF offset alignment is mostly about getting the 8.83MHz oscillator working right.
+
+### FM calibration
+
+The FM calibration does not really match what's in the service manual.
+When hitting "transmit" the carrier output on Control board connector #3
+doesn't output anything! Instead, the carrier is generated and modulated
+directly on the FM-430 board itself.
+
+The FM-430 board has an 8.8315MHz crystal (X1) and a trimmer capacitor
+(TC1) which forms the FM carrier. This is output connector #2 to the
+IF board - so you can check if the frequency is OK by putting
+an oscilloscope on Pin 1 of connector #2 (FMT, FM transmit carrier.)
+Assuming no modulation input, it should give a steady enough carrier
+to calibrate against.
+
+TBD - figure out what TC5 is on the control board. It may also be used
+for AM...
 
 ### Bypassing the finals for output alignment
 
