@@ -12,6 +12,7 @@ implementations.
 
  * [AX25V20.pdf](AX25V20.pdf) - AX.25 v2.0
  * [AX25.2.2-Jul 98-2.pdf](AX25.2.2-Jul 98-2.pdf) AX.25 v2.2 July 1998
+ * [AX25.2.2-Sep 17-1-10Sep17.pdf](AX25.2.2-Sep 17-1-10Sep17.pdf) AX.25 v2.2 revision September 2017
  * [CNC1987-KISS-TNC-K3MC-KA9Q.pdf](CNC1987-KISS-TNC-K3MC-KA9Q.pdf)
 
 ## KA9Q / NOS
