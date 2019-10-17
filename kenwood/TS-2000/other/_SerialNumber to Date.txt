@@ -1,0 +1,46 @@
+Version 1 April 2010   - First release.
+Version 2 October 2010 - Example for Nov 2008 corrected.
+Version 3 July 2011    - 2011 date code confirmed as B1
+
+
+None of the following is official Kenwood information, it is my interpretation based on
+serial numbers posted to various user groups along with date information and correlation of 
+Kenwood's firmware release dates with the serial numbers they apply to.
+It is also not specifically TS-2000 it seems to hold good for other Kenwood radios.
+
+
+Kenwood serial numbers issued during the production life of the TS2000 come in 2 formats.
+
+The original format used from the initial production up until approx August 2008 is as follows:
+All numeric - First digit is Year code, add 1998 to get year. If first digit is 0 add 10 to 1998.
+Next 2 digits are month code starting with April (begining of Japanese tax year) as 01. 
+Months 10,11 & 12 will be Jan, Feb March of the next year so add 1 to the year.
+
+Examples: 
+301xxxxx = April 2001
+311xxxxx = February 2002
+909xxxxx = December 2007
+910xxxxx = January 2008
+001xxxxx = April 2008
+005xxxxx = August 2008
+
+
+The second format adopted from approx August 2008 is alpha numeric.
+The first 2 characters are the year the 3rd is the month starting with 1 in January.
+A8 = 2008
+A9 = 2009
+B0 = 2010
+B1 = 2011 and I believe B2 will be 2012 (time will tell if I am correct)
+The month runs from 1 Jan to C Dec.
+
+Examples:
+A88xxxx = August 2008
+A8Bxxxx = November 2008
+A91xxxx = January 2009
+A9Cxxxx = December 2009
+B02xxxx = February 2010
+
+
+Laurie - G6ISY 
+July 2011
+
