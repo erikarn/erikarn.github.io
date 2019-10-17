@@ -1,0 +1,98 @@
+Firmware list Ver3.0 26th February 2007
+
+The list below has been compiled from information given by users regarding their firmware versions,
+date of production and serial numbers.
+If you can add anything more detail please post the information to adjust_ts2000@yahoogroups.com 
+or KenwoodTS-2000@yahoogroups.com and I'll put it on the list.
+
+73 Laurie - G6ISY
+
+------------------------------------------------------------
+
+Firmware versions :
+0dc6 - Original Factory firmware from radio release in November 2000 s/n 208xxxxx , 209xxxxx
+A89d - Factory firmware from approx Jan 2001  s/n 210xxxxx , 211xxxxx
+6d7A - Factory fimware from approx. April 2001 s/n 212xxxxx
+f095 - First user firmware upgrade (1.01) 29 June 2001
+8bd6 - Factory firmware from approx. May 2002
+bb7d - User firmware upgrade (1.02) 12 Sept 2002
+4611 - User firmware upgrade (1.03) 1 Aug 2003
+bdEF - User firmware upgrade (1.04) 28 Jan 2005
+1d3F - User firmware upgrade (1.05) 11 Dec 2006
+
+The changes in the user firmware updates were :
+
+-------------------------------------------------------------
+
+1.01
+Possible malfunctions
+1.  If the PTT function is set to the sub band while writing to main band
+memory, mode information may not be recorded correctly.
+2.  When performing satellite operations, direct frequency input (by means
+of PC commands issued via the COM port) is not possible during an uplink.
+3.  If the SATL key is pressed to engage satellite mode while repeater
+operation is still in progress, the transceiver may not function properly.
+
+Affected models/units
+Models: TS-2000 K/E/E2, TS-B2000 K/E/E2, TS-2000X K
+S/Nos:  208xxxxx / 209xxxxx / 210xxxxx / 211xxxxx / 212xxxxx
+
+-------------------------------------------------------------
+1.02
+Possible symptoms:
+1. In satellite mode, the frequency step information may not be displayed
+correctly.
+2. In satellite mode, QUICK MEMORY READ seldom displays vacant memory
+channels.
+3. The S-meter flickers in FM mode when the LO/WIDTH knob or the HI/SHIFT
+knob is turned.
+
+Applicable models/units:
+Models: TS-2000 K/E/E2, TS-B2000 K/E/E2, TS-2000X K/E
+(S/Nos: From 208xxxxx through 404xxxxx)
+
+-------------------------------------------------------------
+1.03
+
+Possible symptoms:
+1.  The APO (Auto Power OFF) timer is not reset by pressing PTT.
+2.  After pressing the microphone's up/down switch, up/down operation on the
+ARCP-2000 may not work correctly.
+
+This firmware update revises the above issues only.
+
+Applicable models/units:
+Models: TS-2000 K/E/E2, TS-B2000 K/E/E2, TS-2000X K/E
+(S/Nos: From 208xxxxx through 505xxxxx)
+
+-------------------------------------------------------------
+1.04
+
+Updated items:
+1.  	7MHz band TX range is expanded to "7000kHz-7200kHz" for the TS-2000 E/E2, TS-B2000 E/E2, and TS-2000X E (European models).
+
+2.  	FM sub-audible tone functions (TONE/CTCSS/DCS) can be enabled in Satellite mode.(*1)
+
+	
+This firmware update revises the above items only.
+
+Applicable models/units:
+Models: TS-2000 K/E/E2, TS-B2000 K/E/E2, TS-2000X K/E
+(S/Nos: 	From 208xxxxx through 611xxxxx)
+
+-------------------------------------------------------------
+1.05
+
+Updated item:
+Problem resolved : Frequency step may change when a Quick Memory is registered after turned the main encoder knob to the anticlockwise direction.
+
+	
+This firmware update revises the above items only.
+
+Applicable models/units:
+Models: TS-2000 K/E/E2, TS-B2000 K/E/E2, TS-2000X K/E
+S/Nos: 	From 208xxxxx through 803xxxxx approx.
+
+-------------------------------------------------------------
+
+
