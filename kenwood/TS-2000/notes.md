@@ -108,6 +108,18 @@ someone noticed a fun mechanical issue that leads to PLL unlock.
 > Michelle
 > WB8QGR
 
+Another fun one - covered in <http://pa3guo.com/pll_unlock.html>:
+
+ * Intermittent trimmer cap
+ * VCOs need resoldering
+ * shield plate hitting the +8v line intermittently
+ * i2c bus near noisy / RF signal paths
+ * Overly long coax/filter leads, potentially intermittently shorting against the chassis/ground
+
+A local mirror is here:
+
+ * [PA3GUO - PLL unlock.pdf](PA3GUO - PLL unlock.pdf)
+
 ## Rig control
 
 You can't control TX of the rig through CAT control if you want audio to come
