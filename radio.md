@@ -44,6 +44,7 @@ I've been keeping a list of optional filters [here](kenwood-filters.md).
  * [TS-660](kenwood/TS-660/notes)
  * [TS-680](kenwood/TS-680/notes)
  * [TS-690](kenwood/TS-690/notes)
+ * [TS-940](kenwood/TS-940/notes)
  * [TS-2000](kenwood/TS-2000/notes)
 
 ## Kenwood VHF/UHF radios
