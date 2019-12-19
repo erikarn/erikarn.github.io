@@ -1,0 +1,234 @@
+TS-790A Satellite Communications Addendum
+
+The information in paragraph 4-9 of the TS-790A Instruction Manual has been
+revised to explain the satellite operating procedures.
+Satellite communications utilize numerous frequencies and modes in a pre
+assigned band plan.  Transponders are used to control the contact.  For
+example, part of the band plan of OSCAR 13 utilizes a frequency arrangement
+known as mode B.  In this mode, you would transmit to the satellite
+(uplink) in the set frequency range of 435.425 -435.575 MHz.  Your signal
+will be be processed by the transponder and re-transmitted back to earth
+(downlink) in the frequency range of 145.975 - 145.825 MHz.  The TS-790A is
+capable of allowing the uplink and downlink frequencies to track
+simutaneously by storing the sum of the two frequencies in memory.  Memory
+channels 0-2 are programmed by the factory for Fo-12 and OSCAR 10.  The
+remaining memories are user programmable.  To operate the TS-790A in the
+satellite mode, proceed as follows.
+Entering Data
+Determine the uplink and downlink frequencies of the satellite you are
+tracking. Add the two frequencies together.   The sum can now be placed in
+memory as follows:
+1.      Press the F key and then the SAT key.
+        Note:  This function is inoperative when SUB is selected.
+2.      Rotate the Tuning knowb to select the desired satellite memory
+channel.
+3.      Press the ENT key and then enter the frequency using the numeric
+    keypad.  The frequency will be automatically stored after the seventh
+digit has been entered.
+Recalling Data
+The satellite memory channels can be recalled in the following manner.
+1.       Press the F key and then the SAT key.
+        Note:  This function is inoperative when SUB is selected.
+2.      Rotate the TUNING knob to select the desired satellite memory
+channel.
+3.      Press the SAT key to recall the initial mode setting.
+
+Operating Procedure:
+1.      Recall the desired satellite memory channel as described above.
+2.      Select the SUB function.
+3.      Use the TUNING knob to select the desired downlink (receive)
+frequency.
+4.      Press the SAT key.  The MAIN display will shift to the correct
+uplink         frequency.
+5.      Each time you change the SUB frequency, press the SAT key twice in
+order         to update the MAIN display.  The first time the SAT key is
+pressed, the         transceiver goes out of the satellite mode.  The
+second time it is         pressed, the transceiver goes back into the
+satellite mode and updates         the MAIN display.   An alternative
+method is to press and hold the         SAT key when going into the
+satellite mode.  While the key is held, the         TUNING knob can be
+rotated and both displays will track simultaneously.
+Note:         In step 2, the SUB key was pressed to allow the TUNING knoob
+to control         the downlink (receive) frequency.  If the MAIN key is
+pressed, the         tuning knob will control the uplink (transmit)
+frequency.
+
+  ADAPTING THE KENWOOD TS-790A FOR USE WITH THE PACCOMM MC-NB96 G3RUH MODEM
+ 12-26-91
+ The Kenwood TS-790A makes a wonderful 9600 BPS Packet Radio Transceiver as
+it has an excellent front end, powerful transmitter, and 144,440, and 1.2
+GHZ coverage. The CFW-455F filter inside is not too narrow despite what you
+may have read and coupled with the low noise front end of the rig enables
+the G3RUH modem to reliably decode valid data that barely moves the
+S-meter.
+ The modification discribed below is simple, reversible, and does not
+impair normal operation or the appearance of the transceiver. This is a "no
+holes" modification as it allows the G3RUH modem to be connected to ACC 4
+jack on the rear panel.
+ Place the TS-790A upside down on a soft clean surface so as not to mar the
+cabinet. Remove the bottom cover to expose the IF. Board. With the front
+panel facing you the work area is the upper left quarter of the IF board.
+Identify pin 9 of IC8 (MC3357P). There are two of these chips on the IF
+board but only the main demodulator IC is in the work area. RX audio to the
+modem will be derived from this point. Next locate J31 a two pin connector
+near D81 and X2 (10.965 OSC). TX audio from the modem will be supplied to
+the hot lead on J31. Note the large aluminum heat sink that spans across
+the IF board near the rear of the chassis. A round lug will be mounted on
+it near the rear of ACC 4 jack.
+ Wire an eight pin din plug. Use shielded cable for TX and RX audio. No
+traces on the IF board need to be cut. Pins 3 and 5 of ACC 4 are not
+connected to anything as the radio comes from the factory. Make sure the
+Din plug fits the jack properly before wiring it. PIN 2 - ground PIN 3 - TX
+audio from G3RUH PIN 5 - RX audio to G3RUH PIN 8 - PTT
+ Prepare two six inch lenghts of RG-174. Prepare one end of each cable so
+that the shield will reach the ground lug mounted on the large aluminum
+heat sink. The cables will be routed over the top of the heat sink and will
+not be crushed when the bottom cover is reinstalled as there is adequate
+clearance.
+ Solder the center conductor of one cable to pin 3 on the rear of ACC 4
+(verify with ohm meter). Solder the center conductor of the other cable to
+pin 5 on the rear of ACC4 (verify with ohm meter). Dress the cable
+connected to ACC 4 pin 5 over to IC8 pin 9. Cut to size and solder (be
+careful- use minimum heat and thin solder). The exposed shield is discarded
+and heat shrink tubing placed over the end to prevent any shorts that would
+otherwise occur from having exposed strands of the shield touching
+something. Dress the other cable connected to pin 3 of ACC 4 to J31 and cut
+to size. Prepare the end in the same manner as the other cable. Solder the
+center conductor to pin 2 of J31. This is accomplished by cutting the lead
+going to pin 2 about 1/2 inch back, stripping the insulation back 1/8 inch
+on the two ends, and then joining the center conductor of the cable going
+to pin 3 of ACC 4 and soldering the three exposed ends together. Use heat
+shrink tubing to cover the solder joint.
+NOTE that the banded end of D81 is not the cathode of the varactor diode !
+There is no need to insert any additional capacitance in series with J31
+pin 2. The shields are not connected at both ends of the RG-174 cables in
+order to prevent ground loops. The Aluminum heat sink was used as ground as
+no other ground was available that was close to ACC 4. Your sight may be
+better than mind and you may find one.
+ Adjust VR-1 on the MC-NB96 board for 75 mv p-p as measured on pin 2 of
+J31. This will give a good initial setting for injected transmit audio
+level.
+ This completes the modification. 9600 BPS Packet can now be enjoyed on
+each of the bands installed in your TS-790A. For non-packet operation
+either unplug the modem from ACC 4 or turn off power to the modem. For 9600
+packet operation unplug the mic and turn the mic gain to minimum.
+ Thanks to Frank Anderson, W7ZTA and Jeff Angus, WA6FWI for their help.
+Please report any errors or suggestions to:
+Mike Hooper KF6PU @ WB6YMH.#SOCA
+
+
+
+From    : WB5UUK @ N5LKJ.TX.USA.NOAM
+To      : N5EM
+Date    : 911204/0210
+Msgid   : PN 11593@N5LKJ, 10690@KA5KTH $11593_N5LKJ
+Subject : TS-790 MOD 2
+Path    : N5LKJ
+
+
+  TS-790 & 9600 Baud Operation   (Rev 2)
+  ----------------------------
+
+These notes were partly taken from James Miller, G3RUH notification for FT736R
+and the article of my good friend Sueo Asato, JA6FTL.
+
+These mods are working very well with 9600 bps UO-14 and CBBS operation
+currently used at my site.
+
+Please refer to G3RUH's notification for FT736R for more detail.
+RX/TX mod suitablity remains same as his notes.
+
+TS-790 ; FM Direct from Discriminator
+-------------------------------------
+Detected and amplified/buffered FM direct from the receiver discriminator is
+available from Pin-9 IC1 (Sub) or IC8 (Main).
+I use IC1 (Sub) for reception.
+
+TS-790 ; Direct varactor FM Modulation
+--------------------------------------
+Inject your TX audio at the cathode side of diode D81 with a 1K ohm register
+in series. You can find D81 near Q73 in your IF UNIT diagram.
+
+Misc ;
+------
+It takes a bit hard work for very small and jungle PCB. Use tiny tools.
+Carefully adjust the TX audio level by VR1 of the modem, it's rather low.
+You would probablly need some local friend to do this adjustment, asking him
+to tell you his TNC's DCD LED stays steady (no flicker).
+
+  de Kohjin Yamada, JR1EDE @ JR1EDE.11.JPN.AS
+----- End of message 10690 from WB5UUK @ N5LKJ.TX.USA.NOAM -----
+From    : WB5UUK @ N5LKJ.TX.USA.NOAM
+To      : N5EM
+Date    : 911204/0205
+Msgid   : PN 11592@N5LKJ, 10689@KA5KTH $11592_N5LKJ
+Subject : TS-790 MOD
+Path    : N5LKJ
+
+
+TS-790 with serial frequency control
+~~~~~~~~~~~~~~~~~~
+                                          by Kohjin Yamada, JR1EDE
+              3 Jun'90
+
+This note is the summary of our discussion made among W9FMW, JA6FTL andmyself.
+The first report has been brought by WB0KSL expressing TS-790 has audio drops
+at the frequency change command in it's serial control.
+JA6FTL confirmed the data loss at the product detecter on his scope too.
+These are as terrible as if we use KCT Tuner in it's serial control option.
+
+Kenwood replied to my inquiry "It is made as so to prevent the noise of PLL,
+about 100m sec mute is created".
+Kenwood suggests the modification as below but it should be made on user's
+responsibility. This should be solved in their next products, I strongly
+told them.
+
+JA6FTL and I confirmed that it now works perfectly on FO-20's actual test
+and uSATs too with the following modification.
+
+
+Kenwood suggestion;         (Refer to IF DIAGRAM)
+~~~~~~~~~~
+You could disable the mute function by following methods, both or item 2 only.
+
+1) Delete D20 or R191 (for SUB audio)
+   As far as you would use the rear data port (ACC2), it's *NOT* necessary to
+   do this, although you would still have the audio drop at the sound of loud
+   speaker. Of cource, you should do this modification when you would hook up
+   the audio data from Microphone Plug.
+
+2) Put a jumper between Q4 collector and emitter (for SUB RF Block)
+   This modification is a *MUST*.
+   You can do this by several ways but the above is most easy.
+
+
+The following discussion might help you a bit;
+(partly eddited by me)
+
+I wrote to W9FMW;
+>Cut the line between Q4 Collector and R15 (470 orhm) and Ground the end of
+>R15. JA6FTL made the mod removing Q4 entirelly and grounding the end of R15.
+>Q4 located the left of Q5, they are located roughly oposite side of L2, L3.
+>JA6FTL says the modification needs a magnifying glass, Hi.
+
+There is 1 Reply.
+
+#: 18154 S5/Amateur Satellites
+    01-Jun-90  09:08:20
+Sb: #18148-TS790 mod for KCT
+Fm: Sueo Asato JA6FTL 71701,251
+To: Kohjin Yamada, JR1EDE 76662,111
+
+Here is additional info. to the modification.
+Yes..... Need magnifying glass (I am not farsighted nor shortsighted Hi.)
+This modification is to disable the blocking line for IF amp.
+Audio muting function remains unchanged, but it is no problem to use rear
+data port. (Audio muting circuit consists of D20 and Q12)
+1.Put the frontside toward you and remove the bottom cover of 790.
+2.remove the 13 screws that fix IF board. Lift over up the board toward you.
+3.Q5 and Q4 are located just opposite side of L2 and L3.
+  Chip Q5(printed "V11") has 4 solderd legs, and it's located next to R15
+  (470 ohm surface mount resistor, printed as "471").
+  Q4 is located just beside R15 and has 3 legs.
+----- End of message 10689 from WB5UUK @ N5LKJ.TX.USA.NOAM -----
+
