@@ -140,4 +140,4 @@ a little and prevent it from being such an open-ended antenna.
 ## PDFs
 
  * [TS-440S_service_manual.pdf](TS-440S_service_manual.pdf)
- * [TS-440.pdf](TS-440.pdf)j
+ * [TS-440.pdf](TS-440.pdf)
