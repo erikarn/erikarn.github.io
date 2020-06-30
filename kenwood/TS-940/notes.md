@@ -43,3 +43,4 @@ some RF issues which I bet are due to this rig.
  * [ts940_brochure.pdf](ts940_brochure.pdf)
  * [KENWOOD--TS-940-Serv-Manual.pdf](KENWOOD--TS-940-Serv-Manual.pdf)
  * [ts940s_manual.pdf](ts940s_manual.pdf)
+ * [ts940_options_for_repairing_your_kenwood_power_amplifier_2.pdf][(ts940_options_for_repairing_your_kenwood_power_amplifier_2.pdf)
