@@ -37,6 +37,24 @@ some RF issues which I bet are due to this rig.
  * Removing the MKR connector (J2) from the RF board fixed the rest of
    the IMD showing up on 160/80m and the noise floor on 18MHz is ~ S0.k
 
+## PLL repair / recalibration
+
+ * Yes this has sony bond related goop on the VCOs on the RF board and
+   on the PLL board.
+
+ * From Cliff Holland, re VCO-0 on PLL board (the HET / 36.22MHz Oscillator):
+
+ "Melt the wax out of VCO-0 (the one next to IC19). This is to allow easier
+  resoldering of the components. Turn the board over and remove the old
+  solder and resolder all of the parts that are inside the enclosure.
+  Pay close attention to the leads on L35. Clean any potting compound on the
+  bottom of the board especially under the cap tacked on the bottom of the
+  board. Once clean and resoldered install in radio and adjust the coil for
+  7.5v at the TP. If stable and operating then you may repot if desired
+  but not necessary."
+
+  For reference: [https://forums.qrz.com/index.php?threads/ts-940s.448583/](https://forums.qrz.com/index.php?threads/ts-940s.448583/)
+
 ## PDFs
 
  * [508_Kenwood_TS-940S_Fixes_Reviews.pdf](508_Kenwood_TS-940S_Fixes_Reviews.pdf)
@@ -44,4 +62,4 @@ some RF issues which I bet are due to this rig.
  * [KENWOOD--TS-940-Serv-Manual.pdf](KENWOOD--TS-940-Serv-Manual.pdf)
  * [ts940s_manual.pdf](ts940s_manual.pdf)
  * [TS-940S Alignment Instructions Rev3.pdf](TS-940S Alignment Instructions Rev3.pdf)
- * [ts940_options_for_repairing_your_kenwood_power_amplifier_2.pdf][(ts940_options_for_repairing_your_kenwood_power_amplifier_2.pdf)
+ * [ts940_options_for_repairing_your_kenwood_power_amplifier_2.pdf](ts940_options_for_repairing_your_kenwood_power_amplifier_2.pdf)
