@@ -31,6 +31,15 @@ There's plenty of variation in the 13 pin accessory jack. I'm keeping notes
 
 I've been keeping a list of optional filters [here](kenwood-filters.md).
 
+## Kenwood Notes
+
+Some notes for [aligning kenwood HF radios](kenwood-notes.md).
+
+## Kenwood Service Bulletins
+
+Service bulletins for the earlier radios can be found [here](kenwood/SB/sb.md).
+
+
 ## Kenwood hybrid HF radios
 
  * [TS-520SE](kenwood/TS-520SE/notes)
@@ -42,6 +51,7 @@ I've been keeping a list of optional filters [here](kenwood-filters.md).
  * [TS-440](kenwood/TS-440/notes)
  * [TS-450](kenwood/TS-690/notes)
  * [TS-660](kenwood/TS-660/notes)
+ * [TS-670](kenwood/TS-670/notes)
  * [TS-680](kenwood/TS-680/notes)
  * [TS-690](kenwood/TS-690/notes)
  * [TS-940](kenwood/TS-940/notes)
