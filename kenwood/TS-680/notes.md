@@ -29,7 +29,9 @@ title: TS-140S / TS-680S notes
 
 ## Coil Information (for rewinding coils!)
 
- * Control Unit L54 (39.6MHz VCO) - 0t (skip first), 4t, 3t, 3t, 3t ; TBD coil form and ferrite material; TBD value
+ * Control Unit L54 (39.6MHz VCO) - Marked as L34 / 406D (or 4060) / 830 (or 83C) ; 0t (skip first), 4t, 3t, 3t, 3t ; TBD coil form and ferrite material; TBD value
+ * Control Unit L3 - Marked as 3206 / 6615 / 88222 ;
+ * Control Unit L54 - Marked as 3422 / 4705 / 848E ;
 
 ## PDFs
 
