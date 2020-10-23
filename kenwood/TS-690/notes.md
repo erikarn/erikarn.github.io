@@ -111,3 +111,4 @@ Reduce the RF Gain to limit band noise above 22 MHz.
  * [ts-450-690-wb4kdi.pdf](ts-450-690-wb4kdi.pdf)
  * [ts450-asb1036.pdf](ts450-asb1036.pdf)
  * [ts450-func-summary.pdf](ts450-func-summary.pdf)
+ * [ts450v_manual_jp.pdf](ts450v_manual_jp.pdf) - Japanese TS-450/TS-690 manual, including the 'V' QRP variant and the PA upgrade to 100W
