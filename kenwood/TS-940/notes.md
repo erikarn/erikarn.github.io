@@ -55,6 +55,27 @@ some RF issues which I bet are due to this rig.
 
   For reference: [https://forums.qrz.com/index.php?threads/ts-940s.448583/](https://forums.qrz.com/index.php?threads/ts-940s.448583/)
 
+## Dry / Wrong Electrolytic Capacitors
+
+This radio runs hot. Very hot. I found two fun issues here:
+
+ * A lot of the caps are dry/leaked after all these years.  So yes, you should
+   replace them.
+ * I found some capacitors that were close to the operating voltage or wildly
+   wrongly specified, which lead to them leaking.
+ * The PLL board has a bunch of electrolytic capacitors within a volt
+   or two of the rail voltage; I replaced them all with 25 or 50v rated
+   capacitors.
+ * My control board had incorrect rated capacitors on the linear regulators!
+   (Like, a 12v cap on an 18v input rail.)  It was either a bad repair or
+   a factory messup.  In any case, this caused all kinds of PLL stability
+   issues so I just pulled all the large/power rail capacitors off and
+   replaced them.
+
+There are around 190 electrolytic capacitors to replace in this radio and
+it's worthwhile doing it.
+
+
 ## PDFs
 
  * [508_Kenwood_TS-940S_Fixes_Reviews.pdf](508_Kenwood_TS-940S_Fixes_Reviews.pdf)
