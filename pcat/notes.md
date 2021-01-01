@@ -35,3 +35,15 @@ the default 16450 UART and driver will end up dropping
 received bytes.
 
  * [tcomtxt.asm](tcomtxt.asm)
+
+# Other PC/AT cards that I have
+
+## Winbond W86855AF
+
+This is apparently an MDA card with an optional character ROM.
+
+The jumpers are:
+
+ * J1 Light Pen
+ * J2 Printer ON: DISABLE, OFF: ENABLE
+ * J3 External ROM ON: DISABLE, OFF: ENABLE
