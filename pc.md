@@ -9,6 +9,7 @@ Here's ye olde stuff around IBM PC stuff from way back when.
 
 ## IBM PC/AT
 
+ * [IBM PC/XT](pcxt/notes.md)
  * [IBM PC/AT](pcat/notes.md)
 
 ## Programs
