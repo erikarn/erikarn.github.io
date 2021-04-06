@@ -36,7 +36,14 @@ the transistors on the board.  A fresh coat of thermal grease is also a great id
 
 ### PLL Board Repair/Alignment
 
-(tbd)
+The PLL board is relatively straight forward.  If there's the sonybond
+stuff on the board then you should remove it or it'll eventually dry up
+and stop things from working.
+
+Pay close attention to the TTL ICs - you need to get the right replacements
+in order to meet speed requirements.  Eg replacing them with 74LS chips
+will cause the PLL to fail because it can't keep up with the PLL loop
+frequency.
 
 ### Control Board Repair/Alignment
 
@@ -104,6 +111,35 @@ This allows a TS-430S to be used for both HF and for transverter operation:
  * To use the transverter, ground pin 4 (to disable the PA when transmitting);
    disconnect pin 8 (so you don't use the HF SO-239 input); TX signal is on pin 7
    and feed RX signal in on pin 5.  Use pin 2 for PTT to the transverter.
+
+There are some notable limitations/gotchas!
+
+ * The transverter output does bypass the TX inhbit signal from the control
+   board, and provide continuous output from 1.6MHz to 30MHz.
+ * Notably, the transverter output doesn't transmit on frequencies below
+   1.6MHz - a separate circuit covering 0->500KHz and 500KHz -> 1.6MHz
+   disables the transmit drive path completely.  This is what D39 gatekeeps
+   on the RF board - it's part of the OR gate between the two lowest
+   bands (0->500KHz, 500KHz->1.6MHz) and the WARC signal from the control
+   board.
+ * D39 stops the "always inhibit" signal from the two low bands, but J10
+   also includes the "TXI" (TX Inhibit) signal from the main board.
+ * However, if you snip D39 and disconnect J10 then you must also make
+   sure you're never going to transmit at below 1.6MHz - notably, signals
+   below around 1MHz start looking distorted and have unwanted higher
+   frequency harmonics involved.
+
+For my initial experiments on 630m, I did the following:
+
+ * Disconnect J9, so the TX finals bias is not ever asserted.
+ * Disconnect J10, so the TX inhibit signal is not ever asserted.
+ * Snip D39 so transmit (now only out the transverter board) from
+   0->1.6MHz is available.
+ * Add a 50 (ok, 56 ohm) terminator inside the radio on the TX drive
+   output so I wouldn't drive an open circuit when not driving the
+   transverter output.
+
+I think I'll need a 630m bandpass filter on the transverter TX output.
 
 ### AM receive frequency response
 
