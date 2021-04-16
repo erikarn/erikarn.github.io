@@ -129,19 +129,10 @@ This allows a TS-430S to be used for both HF and for transverter operation:
 There are some notable limitations/gotchas!
 
  * The transverter output does bypass the TX inhbit signal from the control
-   board, and provide continuous output from 1.6MHz to 30MHz.
- * Notably, the transverter output doesn't transmit on frequencies below
-   1.6MHz - a separate circuit covering 0->500KHz and 500KHz -> 1.6MHz
-   disables the transmit drive path completely.  This is what D39 gatekeeps
-   on the RF board - it's part of the OR gate between the two lowest
-   bands (0->500KHz, 500KHz->1.6MHz) and the WARC signal from the control
-   board.
- * D39 stops the "always inhibit" signal from the two low bands, but J10
-   also includes the "TXI" (TX Inhibit) signal from the main board.
- * However, if you snip D39 and disconnect J10 then you must also make
-   sure you're never going to transmit at below 1.6MHz - notably, signals
-   below around 1MHz start looking distorted and have unwanted higher
-   frequency harmonics involved.
+   board, and provide continuous output from 100KHz to 30MHz.
+ * Notably, signals below around 1MHz start looking distorted
+   and have unwanted higher frequency harmonics involved.
+   It may need extra filtering before feeding into the transverter.
 
 For my initial experiments on 630m, I did the following:
 
