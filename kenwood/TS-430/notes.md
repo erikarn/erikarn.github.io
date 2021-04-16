@@ -32,7 +32,12 @@ the transistors on the board.  A fresh coat of thermal grease is also a great id
 
 ### RF Board Repair/Alignment
 
-(tbd)
+The RF is also pretty straight forward.  The service manual goes into good
+detail about what to do here.  The interesting thing to note is that the
+bandswitching control wiring to the low-pass filter board and the ACC jack
+passes through here.  So, if you're seeing weirdness with the LPF behaviour,
+I'd recommend taking a meter to the LPF related connections and see what's
+going on.
 
 ### PLL Board Repair/Alignment
 
@@ -90,6 +95,15 @@ you leave your radio on and transmitting whilst aligning the VCOs/PLLs.
 The transverter socket is rather nifty on this radio. I do need to do some
 measurements to figure out how strong the signal gets without ALC feedback
 to make sure it doesn't distort at some point.
+
+Note that the pinout here is NOT the same as the normal 8 pin DIN layout
+you can find on the internet.
+
+Here's a snippet from the service manual - this is the pin layout on the
+rear socket, as if you're looking AT the female end of the socket that
+you plug into.
+
+![Pin layout that the TS-430 manual uses](transverter-socket.png)
 
 Here's the pinout with a decent description.
 
