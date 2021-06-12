@@ -10,5 +10,6 @@ from scratch.
 
 ## Rev0 Stuff!
 
- * [Rev0 video sync mod](apple-ii/rev0_sync_fix.md)
+ * [Rev0 - video sync mod](apple-ii/rev0_sync_fix.md)
+ * [Rev0 - using a WS65C02](apple-ii/rev0_ws65c02.md)
 
