@@ -7,7 +7,8 @@ title: Apple II - Rev 0 - Using a WS65C02
 
 I only have/had a WS65C02 handy when building my apple-II replica.
 However! It isn't a 100% drop-in replacement.  It's a .. well, 99.5%
-drop-in replacement.
+drop-in replacement.  However, I haven't yet made it work stable;
+will have to figure it out.
 
 It's pretty simple, and well documented [Here](https://www.westerndesigncenter.com/wdc/AN-002_W65C02S_Replacements.php).
 
