@@ -141,3 +141,5 @@ a little and prevent it from being such an open-ended antenna.
 
  * [TS-440S_service_manual.pdf](TS-440S_service_manual.pdf)
  * [TS-440.pdf](TS-440.pdf)
+ * [Kenwood TS-440S Service Manual TABASCAN.pdf](Kenwood TS-440S Service Manual TABASCAN.pdf)
+ * [TS-440 - high res.pdf](TS-440 - high res.pdf)
