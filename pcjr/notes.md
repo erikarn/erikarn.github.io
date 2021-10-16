@@ -8,5 +8,5 @@ title: IBM PCjr Notes
 Here are some notes on my work restoring and working with
 an old IBM PCjr.
 
- * [IBM PCjr Colorpaint](colorpaint)
+ * [IBM PCjr Colorpaint](pcjr/colorpaint)
 
