@@ -7,8 +7,9 @@ title: IBM PC
 
 Here's ye olde stuff around IBM PC stuff from way back when.
 
-## IBM PC/AT
+## Categories
 
+ * [IBM PCjr](pcjr/notes.md)
  * [IBM PC/XT](pcxt/notes.md)
  * [IBM PC/AT](pcat/notes.md)
 
