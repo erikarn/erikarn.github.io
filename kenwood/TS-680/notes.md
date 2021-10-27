@@ -35,9 +35,6 @@ title: TS-140S / TS-680S notes
 
 ## PDFs
 
- * [TS-440S_service_manual.pdf](TS-440S_service_manual.pdf)
- * [TS-440.pdf](TS-440.pdf)
-
  * [Kenwood_TS-140S_680S_Service_Manual.pdf](Kenwood_TS-140S_680S_Service_Manual.pdf)
  * [TS140S_user.pdf](TS140S_user.pdf)
  * [TS140S-680S_serv.pdf](TS140S-680S_serv.pdf)
