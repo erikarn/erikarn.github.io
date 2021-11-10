@@ -75,6 +75,62 @@ This radio runs hot. Very hot. I found two fun issues here:
 There are around 190 electrolytic capacitors to replace in this radio and
 it's worthwhile doing it.
 
+## Service Manual Calibration Errata
+
+> Dave Phillips via groups.io
+> to kw-ts940s
+>
+> The power nob will not be linear, remember, ALC.
+>
+> If the ALC is calibrated properly, which is difficult to do since the
+> procedure in the Service Manual is seriously flawed, the control will
+> be even less linear. The proper adjustment of the ALC is actually quite
+> simple but requires the ability to insert precise levels of a 1500 Hz
+> tone at the microphone input.  Basically, the circuit is first adjusted
+> to establish the ALC base line with a minimal amount of modulation in
+> SSB mode.  Then, the modulation level is doubled, and the ALC is
+> adjusted to the high point in its zone.
+>
+> The procedure in the Service Manual for this adjustment is flawed.
+> The first step indicates you should adjust VR8 on the Control Unit
+> while injecting 1500 Hz at the Mic input in Transmit Mode. This is wrong.
+> VR8 sets the ALC meter mechanical zero point, so the Mic Gain should be
+> Min and no modulation inserted while adjusting this setting.  Then,
+> add the 1500 Hz input at 5 mV and advance the Mic Gain to move the ALC
+> meter to the bottom of the ALC Scale. Finally, increase the 1500 Hz
+> modulation input level by 6dB (100% increase to 10 mV, and adjust VR9
+> on the Control Unit to set the ALC meter to the top of the ALC Scale.
+>
+> Once calibrated, you will find the Mic Gain will be more linear, at
+> least until the ALC begins to limit the power output.
+>
+> Operating practices using the ALC Meter Indication.
+>
+> Obviously, since the ALC reduces transmitter drive to prevent distortion,
+> then the optimum performance of the transmitter will be obtained when the
+> ALC meter deflection is minimal.  The higher the ALC indication on the
+> meter, the more the transmitter drive is being reduced.  It has been
+> ‘Common Wisdom” amongst Amateur Radio operators for some time that the
+> ACL should be full scale while transmitting.  This is absolutely false.
+> Operating with the ALC meter deflection predominantly in the middle to
+> high region of its scale is not efficient and does not improve your
+> signal power or quality.
+>
+> When operating the TS-940 in SSB/AM/FM or FSK Modes,  it is advisable to
+> set the MIC GAIN(FM MIC GAIN)  or the PROCESSOR OUT controls to prevent
+> get minimal ALC indication.
+> Adjusting the optimum output in CW Mode is performed using the
+> CAR LEVEL control.  The TS-940 has the ability to produce excessive drive
+> to the PA, especially in the CW mode.  To prevent this, the CAR LEVEL
+> control must be adjusted to obtain the maximum power output with the
+> least amount of ALC.  To achieve this, rotate the PWR control to full
+> CW position, press SEND, then adjust the CAR LEVEL control to obtain
+> maximum power output with minimal ALC.
+>
+> --
+> 73's
+> Dave
+> KB7JS
 
 ## PDFs
 
