@@ -137,6 +137,12 @@ ground pins on that connector.  Be sure you're not putting it against the +ve
 rail pin - it'll make the resistor unhappy.  That will ground the cable
 a little and prevent it from being such an open-ended antenna.
 
+### AM transmit not working
+
+Apparently AM transmit is not allowed in some countries, and one of the diodes
+on the control board (D77) controls it.  If your rig doesn't PTT when
+you try transmitting on AM, look to see if you need to clip D77.
+
 ## PDFs
 
  * [TS-440S_service_manual.pdf](TS-440S_service_manual.pdf)
