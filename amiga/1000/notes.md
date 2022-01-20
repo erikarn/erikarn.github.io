@@ -31,3 +31,5 @@ title: Commodore Amiga 1000
 
 (TBD)
 
+ * [Aminet: Kickstart disk writing tool](http://aminet.net/package/util/misc/WriteKickDisk)
+
