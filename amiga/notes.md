@@ -12,6 +12,7 @@ Here's ye olde stuff around Commodore Amiga stuff from way back when.
  * [Documentation](docs/notes.md)
  * [Amiga 500](500/notes.md)
  * [Amiga 1000](1000/notes.md)
+ * [Custom - Gary](gary/notes.md)
 
 ## Programs
 
