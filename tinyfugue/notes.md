@@ -20,6 +20,9 @@ title: Tinyfugue - a portable MUD client from the 90s
  * Expressions
  * Functions
  * Hooks
+ * Pattern Matching
+ * Line based highlighting
+ * Match based highlighting
  * Macro expansion versus expression evaluation
  * Logging
 
