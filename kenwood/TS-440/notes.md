@@ -68,6 +68,42 @@ super easy to hook into optoisolators which then you run into the FTDI chip.
 
 (TBD - just post a circuit diagram about it!)
 
+### Sonybond glue on VCO1 / VCO5
+
+Kenwood used Sonybond glue on VCO1 and VCO5 to stop components there from
+vibrating from things like movement (eg mobile/car mounting) and loud audio.
+These VCOs are so sensitive to component values that mechanical movement
+changes parasitic induction/capacitance and this leads to frequency
+drifts, causing little audible blips in the VCO frequency before the PLL
+re-adjusts.
+
+Over time the glue apparently absorbed water and changes until it became
+this .. well, less goopy, more solid mess. It then became conductive enough
+to affect circuit behaviour.
+
+The sonybond glue looks brown/yellow.  It's either thick and waxy, or it's
+darker brown and brittle.  The latter will start eating away at component
+legs so be careful.
+
+Later on Kenwood switched to a different, more waxy looking glue.  This stuff
+is fine.  You don't need to remove it.
+
+The bad stuff, before it dries out:
+
+![The Bad Stuff](sonybond.png)
+
+(from https://www.w5rrr.org/2019/05/12/freds-ts-440s-repair-adventure-part-1/)
+
+The bad stuff, once it's dried out:
+
+![The Bad Stuff](sonybond_dry.png)
+
+(from https://www.w5rrr.org/2019/05/12/freds-ts-440s-repair-adventure-part-1/)
+
+The OK stuff:
+
+![The OK stuff](ts440_white_goop.png)
+
 ### VCO1 Repair/Alignment
 
 (tbd)
