@@ -17,12 +17,13 @@ Kenwood radios.
 | TS-690 | NC | RTTY input | Receiver output / 300mV / 4.7k | Receiver output ground | Squelch control | NC | NC | Ground | Transmit PTT - MIC mute | NC | Mic audio input | Input Ground (via 0.001uF cap)| PTT (not MIC mute) |
 | TS-711 | NC | NC | Data out / 300mV+ at 4.7k | Data GND | NC | NC | NC | NC | Mic Mute | NC | Data Input / 500mV | Data Input GND | PTT |
 | TS-811 | NC | NC | Data out / 300mV+ at 4.7k | Data GND | NC | NC | NC | NC | Mic Mute | NC | Data Input / 500mV | Data Input GND | PTT |
+| TS-940 | ACC SW | ACC SW | Data out / 300mV+ at 4.7k | Data GND | NC | NC | NC | GND | Mic Mute | NC | Data Input / 500mV | Data Input GND | PTT |
 | TS-2000 | Sub-receiver output / 10k | RTTY input | Main receiver output / 10k | GND | Main receiver squelch control | NC | Sub-receiver squelch control | GND | Transciever PTT - MIC mute | NC | Mic audio input | GND | PTT (not MIC mute) |
 
 # Differences
 
  * Pin 13 is PTT with the front MIC not muted - eg for a foot pedal.
- * Some radios (TS-440, TS-711, TS-811) have a separate pin (9) that doesn't PTT - it just mutes the MIC
+ * Some radios (TS-440, TS-711, TS-811, TS-940) have a separate pin (9) that doesn't PTT - it just mutes the MIC
  * Other radios (TS-690, TS-2000) use pin 9 for PTT + Mic mute
 
 # Notes
