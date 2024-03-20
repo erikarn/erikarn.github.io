@@ -183,5 +183,4 @@ you try transmitting on AM, look to see if you need to clip D77.
 
  * [TS-440S_service_manual.pdf](TS-440S_service_manual.pdf)
  * [TS-440.pdf](TS-440.pdf)
- * [Kenwood TS-440S Service Manual TABASCAN.pdf](Kenwood TS-440S Service Manual TABASCAN.pdf)
  * [TS-440 - high res.pdf](TS-440 - high res.pdf)
