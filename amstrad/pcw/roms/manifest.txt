@@ -1,0 +1,8 @@
+40026.ic701: PCW8256 / 8512 printer controller (i8041).
+
+40103.ic109: PCW9512 printer controller ROM.
+
+40027.ic801: PCW8256 / 8512 / 9512 keyboard controller (i8048).
+
+In the first two, the Z80 boot code for their respective PCWs can be found
+at offset 300h.
