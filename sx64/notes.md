@@ -7,9 +7,7 @@ title: Commodore SX-64
 
 ## Categories
 
- * [Repair Notes, Raymond Carlsen, 1999](sx64/repair_notes_carlsen.md)
- * [IBM PC/XT](pcxt/notes.md)
- * [IBM PC/AT](pcat/notes.md)
+ * [Repair Notes, Raymond Carlsen, 1999](repair_notes_carlsen)
 
 ## Programs
 
