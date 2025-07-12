@@ -49,5 +49,5 @@ The service and user manuals should be used together to figure out
 what's going on.
 
  * [ts670_user.pdf](ts670_user.pdf)
- * [ts670_user.pdf](ts670_user.pdf)
+ * [ts670_service.pdf](ts670_service.pdf)
  * [ts-670txmoddiag.pdf](ts-670txmoddiag.pdf)
