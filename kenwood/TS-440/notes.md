@@ -179,6 +179,22 @@ Apparently AM transmit is not allowed in some countries, and one of the diodes
 on the control board (D77) controls it.  If your rig doesn't PTT when
 you try transmitting on AM, look to see if you need to clip D77.
 
+## Alignment / Calibration Errata
+
+There are some mistakes/omissions in the TS-440S alignment instructions.
+These are covered in the service bulletins.
+
+ * [SB-986](ASB0986.JPG) - Voltage, VCO3, VC4, S-Meter Calibration - this has
+   corrections for an incorrect band setting for 13.9999MHz -> 14.0000MHz VCO
+   (VCO3) and the IF shift offsets (VCO4).
+
+ * ALC min/max calibration - the TS-440S calibration instructions are missing
+   how to establish the ALC minimum and maximum values.  The
+   [TS-430S ALC instructions](TS-430sALC.rtf) include the missing bits - notably,
+   calibrate ALC low as per the instructions (MIC level min, AG at 1KHz, 5mV RMS),
+   then bump it up +6dB, verify you're seeing 100W RF output from the finals,
+   and then adjust IF VR-11 to maximum ALC scale reading.
+
 ## PDFs
 
  * [TS-440S_service_manual.pdf](TS-440S_service_manual.pdf)
