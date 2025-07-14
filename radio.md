@@ -60,7 +60,8 @@ Service bulletins for the earlier radios can be found [here](kenwood/SB/sb.md).
 ## Kenwood VHF/UHF radios
 
  * [TS-711](kenwood/TS-711/notes)
- * [TS-811](kenwood/TS-811/notes)
+ * [TS-790](kenwood/TS-790/notes)
+ * [TS-811](kenwood/TS-711/notes)
 
 ## Kenwood tuners
 
