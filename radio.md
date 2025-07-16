@@ -35,10 +35,14 @@ I've been keeping a list of optional filters [here](kenwood-filters.md).
 
 Some notes for [aligning kenwood HF radios](kenwood-notes.md).
 
+## Kenwood ROM images
+
+ROM images from the Kenwood radios I remember to dump the ROMS on
+[can be found here](kenwood/ROMS/notes.md).
+
 ## Kenwood Service Bulletins
 
 Service bulletins for the earlier radios can be found [here](kenwood/SB/sb.md).
-
 
 ## Kenwood hybrid HF radios
 
