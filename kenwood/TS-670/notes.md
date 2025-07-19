@@ -76,7 +76,17 @@ The RF board is only looking at the G2 voltage (TX gain) derived
 from the above logic and RF power control (PCL) generated from the
 front panel.
 
-## Weirdnesses
+## Weirdnesses / Errors
+
+### 50MHz TX bandpass filter
+
+The 50MHz TX bandpass filter (Section 3, TX calibration) instructions
+aren't as clear as they should be.  The 50 MHz TX BPF is actually
+T37 -> T42 (ie, T37, T38, T39, T40, T41, T42) and TC3/TC2 for max
+power.
+
+The instructions just say TC3/2, then T37 / 42, and they don't make
+it clear it's the whole range between T37 -> T42.
 
 ### Calibrating TX power
 
