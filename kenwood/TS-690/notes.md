@@ -26,7 +26,8 @@ The mods I've done are pretty extensive:
 
 ## Finals
 
-I've been slowly rebuilding the finals on this unit.
+I've been slowly rebuilding the finals on this unit.  They were very burnt out,
+requiring manual rewinding of some burnt inductors, transistor replacement.
 
 ### Inductor rewinding
 
@@ -97,6 +98,40 @@ Note that this change will worsen the strong signal handling capability of the r
 To disable this pad remove R68 and/or Q14 (R69 and Q17 for 6 meters). If for some reason the signal meter ever needs to be recalibrated at 28 or 50 MHz remember that the signal strength reading has been increased by about 15 db.
 
 Reduce the RF Gain to limit band noise above 22 MHz.
+
+## TS-690 50MHz amplifier bias fixes
+
+The TS-450_HELP document below includes instructions on fixing the
+bias on the 50MHz radio.  The problem is the supplied bias is 7V
+but it needs to be 9V.  So, the modification (which I have done)
+uses a 9V regulator with a control signal to regulate the 13.8V
+rail down to 9V to use as bias, and ensures it's off when TX is
+not enabled.
+
+It's worth doing, especially if you're doing a lot of voice or
+digital modes on 50MHz.
+
+Note the toshiba part (TA48S09AF) is no longer available;
+you may want to try the Rohm BA09CC0WT (a 9V TO-220 regulator
+with a switch/control signal.)  If in doubt though, I'm sure
+someone could come up with a regulator / MOSFET board to
+provide the 9V + switch functionality.
+
+## TS-450V/TS-690V
+
+The "V" variant is a 10W QRP radio with a 10W finals.  The rest of the radio is
+the same.  The very corroded TS-450 I bought thought it was a TS-450V, showing
+a 10W power scale.
+
+It turns out that the detection is done via connector 4 on the finals board!
+Pin 1 is "HFHG" which is shorted to ground.  If Pin 1 is NOT shorted to ground
+then the firmware will boot and operate as a "V" radio showing 10W finals
+output and likely get all the ALC and other bits just plain wrong.
+
+On my TS-450 there was a lot of corrosion on the IF board due to leaky
+capacitors and the HFHG trace between it and the control board needed repairing.
+(Among many, many other traces.)
+
 
 ## Interesting links
 
