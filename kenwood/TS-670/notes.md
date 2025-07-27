@@ -76,6 +76,42 @@ The RF board is only looking at the G2 voltage (TX gain) derived
 from the above logic and RF power control (PCL) generated from the
 front panel.
 
+## Service Manual Errata
+
+### Voltage Adjustment
+
+ * The service manual (the first calibration section) lists the 8V rail as
+   being between 8.55 and 9.45V.  Considering it's fed from a 7808 regulator,
+   it definitely should be 8V.
+
+### Control Adjustment
+
+ * The internet scan of the service manual, section 6, has different
+   frequencies for each of the voltage adjustments.
+ * 7.499MHz should be 7.990MHz
+ * 6.600MHz should be 6.660MHz
+ * 24.790MHz is OK
+ * 21.000MHz is OK
+ * 24.999MHz should be 24.990MHz
+ * 24.800MHz is OK
+ * 53.999MHz is 53.990MHz
+ * 50.000MHz is OK
+
+### TX Adjustment
+
+#### Base Current
+
+You absolutely should verify the finals current by desoldering the
+two links on the finals board (A and B, which are unlabeled, sigh)
+and measure the current between them.  I destroyed one of my driver
+transistors because the circuit didn't actually calibrate down to
+0mA bias current.
+
+The A and B connectors aren't labelled on the board or drawn on the
+service manual.  It's similar to the TS-660 finals board though (and
+that service manual does have pictures) - the "A" jumper is the one
+closest to VR1, and the "B" jumper is closest to VR2.
+
 ## Weirdnesses / Errors
 
 ### 50MHz TX bandpass filter
@@ -105,19 +141,6 @@ After a lot of reverse engineering I finally figured out what's going on.
  * ALC min/max calibration is purely for the meter; there isn't an ALC
    min/max setting based on the voice input.  The only feedback into the
    ALC line comes from the forward power pot and associated circuitry.
-
-### Calibrating Finals
-
-You absolutely should verify the finals current by desoldering the
-two links on the finals board (A and B, which are unlabeled, sigh)
-and measure the current between them.  I destroyed one of my driver
-transistors because the circuit didn't actually calibrate down to
-0mA bias current.
-
-The A and B connectors aren't labelled on the board or drawn on the
-service manual.  It's similar to the TS-660 finals board though (and
-that service manual does have pictures) - the "A" jumper is the one
-closest to VR1, and the "B" jumper is closest to VR2.
 
 ### Calibrating the RX and TX voltages first!
 
