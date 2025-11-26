@@ -15,7 +15,7 @@ hardware platforms, networked services; IoT devices; internet infrastructure
 and wireless technologies.
 
 ## Technical Skills
-Adrian Chadd has over 20 years experience in various networking, systems and
+Adrian Chadd has over 25 years experience in various networking, systems and
 software related areas. He has worked in a variety of environments including
 technology startups, telecommunications carriers, corporate, consulting,
 academic and government organisations.
@@ -37,7 +37,12 @@ solving, debugging and troubleshooting across all disciplines.
 * Operating systems - Kernel-level development with FreeBSD and Linux. Administration and application development in FreeBSD, Solaris and Linux. Network application development for various versions of Windows.
 * Database services - Application developer and administrator using PostgreSQL and MySQL. Some Oracle application developer exposure.
 * Web services - All aspects of Squid development, troubleshooting, performance work, optimisation and deployment. Exposure to Cisco ACE and Cache Engines. Forward and reverse proxy environments. Development and administration experience with Lighttpd, Nginx. Development experience with node.js and Django.
-* Embedded systems - Atheros MIPS SoC (AR71xx, AR724x, AR913x, AR933x, AR934x, QCA955x, QCA953x.) ARM systems (Broadcom BCM7444, Qualcomm Atheros IPQ801x.) Exposure to 68HC11. Extensive experience with Atmel AVR and Arduino based designs. Some exposure to PIC. Commercial development on Z180 hardware.
+* Embedded systems - Atheros MIPS SoC (AR71xx, AR724x, AR913x, AR933x, AR934x,
+  QCA955x, QCA953x.) ARM systems (Broadcom BCM7444, Qualcomm Atheros IPQ801x,
+  Qualcomm Snapdragon).
+  Exposure to 68HC11 / 8051. Extensive experience with Atmel AVR and
+  Arduino based designs. Some exposure to PIC. Commercial development on
+  Z180 hardware.
 * Systems Programming - Event-driven network and disk IO; POSIX threads, distributed message passing, various RPC flavours, multi-thread and multi-process SMP applications.
 * Wireless Technology - 802.11abgn, 802.11ac, 802.11s mesh, 2/5GHz, some 900MHz/700MHz experience; TDMA; Bluetooth, Bluetooth-LE
 * Wireless Development - Ongoing driver development of the Atheros HAL wireless driver in FreeBSD. Maintainer/lead of the FreeBSD net80211 802.11 wireless stack. Other driver maintenance (Intel, Realtek.)
@@ -57,9 +62,30 @@ solving, debugging and troubleshooting across all disciplines.
 
 ## Employment History
 
+### Facebook / Meta - August 2018 -
+
+I was initially hired into Facebook/Meta to work on the WiFi driver/
+framework for their "Project Orion" AR glasses operating system and
+hardware. It ended up growing into a larger BSP bring-up and design role
+and from that into a multi-purpose power/thermal/platform efficiency
+role.
+
+I've since been working on their wearables platforms, including
+the Project Orion AR glasses, the Meta Rayban Display glasses, and
+upcoming AR and other wearables products.
+
+Although my primary focus is power, thermal and platform efficiency,
+I end up spending my time working cross functional across all
+hardware, firmware and software parts of each product.
+
+I've participated in the whole platform stack starting with ASIC design
+reviews, electrical/thermal layout reviews, software and firmware
+architecture reviews, helped debug and repair FPGA / Verilog designs,
+and a lot more which I can't talk about here!
+
 ### Eva Automation, Inc. (Redwood City, CA) - November 2015 - August 2016
 
-### Bowers & Wilkins (Redwood City, CA) - August 2016 -
+### Bowers & Wilkins (Redwood City, CA) - August 2016 - August 2018
 
 Eva Automation acquired Bowers & Wilkins early in 2016.
 
