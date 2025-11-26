@@ -13,9 +13,46 @@ title: SGI Indy
 
 ## Indy Report
 
-(TBD)
-
 This is originally from https://www.employees.org/~drich/SGI/SiliconSurf/products/Indy/Indy_Report.book.html .
+
+It contains a lot of useful information and architecture diagrams about
+the Indy.
+
+### The chapters
+
+ * [IndyReport/indy_report_toc.pdf](IndyReport/indy_report_toc.pdf) - TOC
+
+ * [IndyReport/Indy_Report.ch1.pdf](IndyReport/Indy_Report.ch1.pdf) - Overview
+
+ * [IndyReport/Indy_Report.ch2.pdf](IndyReport/Indy_Report.ch2.pdf) - Configurations
+
+ * [IndyReport/Indy_Report.ch3.pdf](IndyReport/Indy_Report.ch3.pdf) - System Boards
+
+ * [IndyReport/Indy_Report.ch4.pdf](IndyReport/Indy_Report.ch4.pdf) - XL / Newport Graphics
+
+ * [IndyReport/Indy_Report.ch5.pdf](IndyReport/Indy_Report.ch5.pdf) - XZ / Express Graphics
+
+ * [IndyReport/Indy_Report.ch6.pdf](IndyReport/Indy_Report.ch6.pdf) - Video
+
+ * [IndyReport/Indy_Report.ch7.pdf](IndyReport/Indy_Report.ch7.pdf) - Software Environment
+
+### The diagrams
+
+
+ * [IndyReport/Indyreport_fig1.pdf](IndyReport/Indyreport_fig1.pdf)
+ * [IndyReport/Indyreport_fig2.pdf](IndyReport/Indyreport_fig2.pdf)
+ * [IndyReport/Indyreport_fig3.pdf](IndyReport/Indyreport_fig3.pdf)
+ * [IndyReport/Indyreport_fig4.pdf](IndyReport/Indyreport_fig4.pdf)
+ * [IndyReport/Indyreport_fig5.pdf](IndyReport/Indyreport_fig5.pdf)
+ * [IndyReport/Indyreport_fig6.pdf](IndyReport/Indyreport_fig6.pdf)
+ * [IndyReport/Indyreport_fig7.pdf](IndyReport/Indyreport_fig7.pdf)
+ * [IndyReport/Indyreport_fig8.pdf](IndyReport/Indyreport_fig8.pdf)
+ * [IndyReport/Indyreport_fig9.pdf](IndyReport/Indyreport_fig9.pdf)
+ * [IndyReport/Indyreport_fig10.pdf](IndyReport/Indyreport_fig10.pdf)
+ * [IndyReport/Indyreport_fig11.pdf](IndyReport/Indyreport_fig11.pdf)
+ * [IndyReport/Indyreport_fig12.pdf](IndyReport/Indyreport_fig12.pdf)
+ * [IndyReport/Indyreport_fig13.pdf](IndyReport/Indyreport_fig13.pdf)
+ * [IndyReport/Indyreport_fig16.pdf](IndyReport/Indyreport_fig16.pdf)
 
 ## Chipset Documentation
 
