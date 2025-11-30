@@ -115,6 +115,11 @@ into memory.
  * [datasheets/sgi_indy_rex3.pdf](datasheets/sgi_indy_rex3.pdf) - the REX3
    Rendering Engine and top level description of the Newport Graphics Engine.
 
+ * [datasheets/bt445_ramdac.pdf](datasheets/bt445_ramdac.pdf) - the BT445
+   RAMDAC which handles RGB DAC output, final stage gamma correction,
+   overlay/cursor colour support and importantly the Pixel Clock generation
+   used by the rest of the Newport ASICs.
+
  * [datasheets/sgi_indy_rb2.pdf](datasheets/sgi_indy_rb2.pdf) - the RAM
    buffer translating between the pixel format / operations between the REX3
    and the VRAM ICs.  (For example the actual bitblt operations on memory
