@@ -143,5 +143,11 @@ into memory.
    chipset which takes the 24 bit RGB / 8 or 12 bit colour index map data
    and RGB colourmap selector and maps that to the RAMDAC for output.
 
+### Monitor Detection and Programming
+
+ * [monitor_detection](monitor_detection) - notes on how the SGI Indy and
+   Indigo 2 firmware detects the monitor and programs in various bits and
+   pieces.
+
 ## Miscellaneous
 
