@@ -44,7 +44,9 @@ And this one isn't from SGI, but I found it a good read.
  * [xfs/xfs.pdf](xfs/xfs.pdf) - Failure Analysis of SGI XFS File System,
    Tamma, Venugopalan
 
+ * [xfs/xfs_filesystem_structure.pdf](xfs/xfs_filesystem_structure.pdf) - XFS Filesystem Structure (2nd Edition), SGI, 2006
  * [xfs/xfs_filesystem_structure_2025.pdf](xfs/xfs_filesystem_structure_2025.pdf) - XFS Algorithms and Data Structures (3rd Edition), April 2025 update
+ * [xfs/getting_started_with_xfs.pdf](xfs/getting_started_with_xfs.pdf) - Getting Started with XFS, SGI, 1994
 
 ## Software
 
