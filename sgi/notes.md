@@ -48,7 +48,7 @@ XFS.
 
 ## Software
 
- * [sgi/misc/sgi-driver-guide-007-0911-050.pdf](sgi-driver-guide-007-0911-050.pdf) - SGI/IRIX Driver Guide
+ * [misc/sgi-driver-guide-007-0911-050.pdf](misc/sgi-driver-guide-007-0911-050.pdf) - SGI/IRIX Driver Guide
 
 
 ## Misc / Non-SGI
