@@ -1,0 +1,61 @@
+This directory includes an initial glimpse of XFS design documents
+from 1993.  These documents do not reflect the current state of
+XFS in IRIX or what will be XFS in Linux.
+These documents are a good source for initially studying the
+internals of XFS, but one should keep in mind many of these
+initial designs have changed since this was written in 1993.
+SGI plans to work on up-to-date Linux-XFS design documents
+to replace these historical, and now inaccurate documents.
+Until then, these are a reasonable place from which to start
+to learn about XFS.
+ 
+The files are in a gzipped, tar, Adobe PDF, PostScript, or text formats
+which you may download via either of:
+
+	o http:  http://oss.sgi.com/projects/xfs/design_docs/
+	o ftp:   ftp://oss.sgi.com/www/projects/xfs/design_docs/
+
+(ftp usually works better for big files since it can be
+  restarted in case of timeouts or other mid-transfer failures)
+
+------- ------- ------- ------- ------- ------- -------
+
+Before SGI can distribute additional XFS code,
+the original IRIX-XFS code needs to be "cleaned"
+of legal encumbrances.  It also needs to be ported
+from the IRIX-XFS source base to the Linux-XFS source base.
+
+Please bear with us as we complete this process.
+
+All files in this directory are copyrighted under the following terms.
+
+/*
+  * Copyright (c) 1999, Silicon Graphics, Inc.  All rights reserved.
+  * SGI: 1600 Amphitheater Parkway, Mountain View, CA 94403, USA.
+  *
+  * This program is free software; you can redistribute it and/or
+  * modify it under the terms of the GNU General Public License
+  * as published by the Free Software Foundation; either version 2
+  * of the License, or (at your option) any later version.
+  *
+  * This program is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  * GNU General Public License for more details.
+  *
+  * You should have received a copy of the GNU General Public
+  * License along with this program; if not, write to
+  *     Free Software Foundation, Inc.,
+  *     59 Temple Place - Suite 330,
+  *     Boston, MA 02111-1307, USA.
+  *
+  * For more information see http://www.sgi.com/developers/oss
+  * or http://www.fsf.org.
+  *
+  * This software is OSI Certified Open Source Software.
+  * OSI Certified is a certification mark of the Open Source Initiative.
+  *
+  * README file for 1993 XFS design documents.
+  *
+  * Written August, 9 1999 by R. Kent Koeninger at SGI.
+*/

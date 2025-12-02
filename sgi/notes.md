@@ -16,7 +16,7 @@ on the web in general. There's a lot of PDFs spread all over the place.
 
 ## Hardware
 
- * [sgi/indy/notes](SGI Indy) - SGI Indy Hardware, Software and
+ * [indy/notes](indy/notes) - SGI Indy Hardware, Software and
    Platform Documentation
 
 ## CPU Documentation
@@ -36,18 +36,26 @@ in one place.
 I haven't found anything describing EFS, but there's bits and pieces about
 XFS.
 
- * [xfs/sgixfs.pdf](xfs/sgixfs.pdf) - Scalability in the XFS filesystem,
+ * [fs/sgixfs.pdf](fs/sgixfs.pdf) - Scalability in the XFS filesystem,
    Adam Sweeny (SGI) - Usenix 1996
 
-And this one isn't from SGI, but I found it a good read.
+ * [fs/xfs_filesystem_structure.pdf](fs/xfs_filesystem_structure.pdf) - XFS Filesystem Structure (2nd Edition), SGI, 2006
+ * [fs/xfs_filesystem_structure_2025.pdf](fs/xfs_filesystem_structure_2025.pdf) - XFS Algorithms and Data Structures (3rd Edition), April 2025 update
+ * [fs/getting_started_with_xfs.pdf](fs/getting_started_with_xfs.pdf) - Getting Started with XFS, SGI, 1994
 
- * [xfs/xfs.pdf](xfs/xfs.pdf) - Failure Analysis of SGI XFS File System,
-   Tamma, Venugopalan
-
- * [xfs/xfs_filesystem_structure.pdf](xfs/xfs_filesystem_structure.pdf) - XFS Filesystem Structure (2nd Edition), SGI, 2006
- * [xfs/xfs_filesystem_structure_2025.pdf](xfs/xfs_filesystem_structure_2025.pdf) - XFS Algorithms and Data Structures (3rd Edition), April 2025 update
- * [xfs/getting_started_with_xfs.pdf](xfs/getting_started_with_xfs.pdf) - Getting Started with XFS, SGI, 1994
+ * [fs/xfs93/notes](fs/xfs93/notes) - Initial 1993 XFS design documents,
+   released by SGI during the Linux XFS open source effort
 
 ## Software
 
  * [sgi/misc/sgi-driver-guide-007-0911-050.pdf](sgi-driver-guide-007-0911-050.pdf) - SGI/IRIX Driver Guide
+
+
+## Misc / Non-SGI
+
+And this one isn't from SGI, but I found it a good read.
+
+ * [fs/xfs.pdf](fs/xfs.pdf) - Failure Analysis of SGI XFS File System,
+   Tamma, Venugopalan
+
+
