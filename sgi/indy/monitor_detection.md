@@ -88,6 +88,23 @@ they're inverted. Ie, "on" means "0" into the monitor.  Also the bits
 are in an odd order (bit 3, bit 0, bit 1, bit 2) so make sure you
 read the manual before you program them!
 
+The below entries assume "1" is on and "0" is off.  Yes, I've re-ordered
+and inverted the bits for you.
+
+The default monitor - 1024x768 60Hz on Indy, 1280x1024 60Hz on Indigo 2:
+
+ * Monitor id 0 - SW 1 = 0, SW 2 = 0, SW 4 = 0, SW 5 = 0
+ * Monitor id 15 - SW 1 = 1, SW 2 = 1, SW 4 = 1, SW 5 = 1
+
+The other monitors, see the table above:
+
+ * Monitor id 1 - SW 1 = 1, SW 2 = 0, SW 4 = 1, SW 5 = 1
+ * Monitor id 6 - SW 1 = 1, SW 2 = 1, SW 4 = 0, SW 5 = 0
+ * Monitor id 9 - SW 1 = 0, SW 2 = 0, SW 4 = 1, SW 5 = 1
+ * Monitor id 10 - SW 1 = 0, SW 1 = 1, SW 4 = 0, SW 5 = 1
+ * Monitor id 12 - SW 1 = 0, SW 2 = 1, SW 4 = 1, SW 5 = 0
+ * Monitor id 13 - SW 1 = 0, SW 2 = 0, SW 4 = 1, SW 5 = 0
+
 ## Monitor Output
 
 It looks like at least for Newport graphics, the 13W3 has three kinds of
