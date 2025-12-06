@@ -30,6 +30,10 @@ in one place.
  * [cpus/r4000.pdf](cpus/r4000.pdf)
  * [cpus/r4600.pdf](cpus/r4600.pdf)
  * [cpus/r5000.pdf](cpus/r5000.pdf)
+ * [cpus/r5000-errata.pdf](cpus/r5000-errata.pdf) - IDT R5000 v1.0 errata
+   (relevant for the SGI Indy R5000 board!)
+ * [cpus/mips_REN__DSE_20000926.pdf](cpus/mips_REN__DSE_20000926.pdf) -
+   Renesys R5000 errata
 
 ## Filesystems
 
