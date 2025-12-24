@@ -34,6 +34,10 @@ in one place.
    (relevant for the SGI Indy R5000 board!)
  * [cpus/mips_REN__DSE_20000926.pdf](cpus/mips_REN__DSE_20000926.pdf) -
    Renesys R5000 errata
+ * [cpus/r8000-um.pdf](cpus/r8000-um.pdf) - R8000 CPU, Found in the Power Indigo 2
+ * [cpus/MIPS_R10000_Microprocessor_Users_Manual.pdf](cpus/MIPS_R10000_Microprocessor_Users_Manual.pdf
+) - R10000 CPU
+ * [cpus/r10000_cache_speculation_dma.txt](cpus/r10000_cache_speculation_dma.txt) - R10000 speculative execution, cache coherency and workarounds for Indigo 2 and O2 systems
 
 ## Filesystems
 
