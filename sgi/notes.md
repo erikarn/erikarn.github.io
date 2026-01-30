@@ -39,6 +39,8 @@ in one place.
    (relevant for the SGI Indy R5000 board!)
  * [cpus/mips_REN__DSE_20000926.pdf](cpus/mips_REN__DSE_20000926.pdf) -
    Renesys R5000 errata
+ * [cpus/RM7035C.pdf](cpus/RM7035C.pdf) - RM7035C / RM7065C CPUs
+ * [cpus/RM7000-RM7000C-Xylinx-values.pdf](cpus/RM7000-RM7000C-Xylinx-values.pdf) - a breakdown of the strapping/EEPROM init values vs CPU / cache frequency for RM7xxx
  * [cpus/r8000-um.pdf](cpus/r8000-um.pdf) - R8000 CPU, Found in the Power Indigo 2
  * [cpus/MIPS_R10000_Microprocessor_Users_Manual_19961010.pdf](cpus/MIPS_R10000_Microprocessor_Users_Manual_19961010.pdf) - R10000 CPU, Document Version 2.0 10-October-1996
  * [cpus/MIPS_R10000_Microprocessor_Users_Manual_19970129.pdf](cpus/MIPS_R10000_Microprocessor_Users_Manual_19970129.pdf) - R10000 CPU, Document Version 2.0 27-January-1997
