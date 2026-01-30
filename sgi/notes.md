@@ -30,6 +30,7 @@ These are available, well, everywhere, but to make my own life easier
 I'm going to try and collate all of the MIPS CPUs used in SGI hardware
 in one place.
 
+ * [cpus/R3000.pdf](cpus/R3000.pdf) - IDT R30xx reference
  * [cpus/R4300_datasheet.Rev0.3.pdf](cpus/R4300_datasheet.Rev0.3.pdf)
  * [cpus/R4600_Prod_OV.pdf](cpus/R4600_Prod_OV.pdf)
  * [cpus/r4000.pdf](cpus/r4000.pdf)
