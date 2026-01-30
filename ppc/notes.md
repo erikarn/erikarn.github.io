@@ -23,7 +23,9 @@ I will just put what I use / read here.
   PowerISA Version 2.07B (eg POWER8)
 * [cpus/PowerISA_public.v3.0C.pdf](cpus/PowerISA_public.v3.0C.pdf) -
   PowerISA Version 3.0C (eg POWER9)
-* [cpus/power8_perf.pdf](cpus/power8_perf.pdf) - POWER8 performance counters
+* [cpus/power8_perf.pdf](cpus/power8_perf.pdf) - POWER8 performance overview
+* [cpus/2016-11-sc16-openpower_perf.pdf](cpus/2016-11-sc16-openpower_perf.pdf) -
+    POWER8 Performance Counter Overview
 * [cpus/ppc_PRG.pdf](cpus/ppc_PRG.pdf) - 1997 Motorola PPC Programming Guide
 * [cpus/redp3890_ppc970.pdf](cpus/redp3890_ppc970.pdf) -
   IBM PPC970 programming guide
