@@ -13,12 +13,13 @@ title: SGI O2
 
 ## Datasheets
 
- * [crime.pdf](crime.pdf) - Crime 1.5 documentation (unreleased chip, but
+ * [datasheets/crime.pdf](datasheets/crime.pdf) -
+   Crime 1.5 documentation (unreleased chip, but
    still useful documentation!)
- * [gbespec.pdf](gbespec.pdf)
- * [o2-MACE-spec.pdf](o2-MACE-spec.pdf)
- * [o2-tech-report.pdf](o2-tech-report.pdf)
- * [vice.pdf](vice.pdf) - VICE co-processor
+ * [datasheets/gbespec.pdf](datasheets/gbespec.pdf)
+ * [datasheets/o2-MACE-spec.pdf](datasheets/o2-MACE-spec.pdf)
+ * [datasheets/o2-tech-report.pdf](datasheets/o2-tech-report.pdf)
+ * [datasheets/vice.pdf](datasheets/vice.pdf) - VICE co-processor
  * [datasheets/OR2C04A](datasheets/OR2C04A.PDF) - Lattice OR2C04A FPGA,
    used as bus glue on the R10000 CPU module
 
