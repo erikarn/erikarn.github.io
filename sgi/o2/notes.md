@@ -19,6 +19,8 @@ title: SGI O2
  * [o2-MACE-spec.pdf](o2-MACE-spec.pdf)
  * [o2-tech-report.pdf](o2-tech-report.pdf)
  * [vice.pdf](vice.pdf) - VICE co-processor
+ * [datasheets/OR2C04A](datasheets/OR2C04A.PDF) - Lattice OR2C04A FPGA,
+   used as bus glue on the R10000 CPU module
 
 ## Repair / Replacement Notes
 
