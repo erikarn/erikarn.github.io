@@ -28,16 +28,18 @@ I will just put what I use / read here.
     POWER8 Performance Counter Overview
 * [cpus/power8_perf.pdf](cpus/power8_perf.pdf) - POWER8 performance overview
 
-## PowerISA documentation
+## PowerPC/PowerISA documentation
+
+* [isa/PowerPC_Assembly_IBM_Programming_Environment.pdf](isa/PowerPC_Assembly_IBM_Programming_Environment.pdf) - PowerPC ISA (PPC970)
 
 * [cpus/PPC_Vers202_Book1_public.pdf](cpus/PPC_Vers202_Book1_public.pdf) -
-  PowerISA Version 2.01 Book I
+  PowerISA Version 2.02 Book I
 * [cpus/PPC_Vers202_Book2_public.pdf](cpus/PPC_Vers202_Book2_public.pdf) -
-  PowerISA Version 2.01 Book II
+  PowerISA Version 2.02 Book II
 * [cpus/PPC_Vers202_Book3_public.pdf](cpus/PPC_Vers202_Book3_public.pdf) -
-  PowerISA Version 2.01 Book III
+  PowerISA Version 2.02 Book III
 * [cpus/PowerISA_V2.03_Final_Public.pdf](cpus/PowerISA_V2.03_Final_Public.pdf) -
-  PowerISA 2.03 (POWER4, PPC970)
+  PowerISA 2.03 (POWER4)
 * [cpus/PowerISA_V2.07B.pdf](cpus/PowerISA_V2.07B.pdf) -
   PowerISA Version 2.07B (eg POWER8)
 * [cpus/PowerISA_public.v3.0C.pdf](cpus/PowerISA_public.v3.0C.pdf) -
