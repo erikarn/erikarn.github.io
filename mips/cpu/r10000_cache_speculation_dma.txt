@@ -1,0 +1,89 @@
+This is from https://mail-index.netbsd.org/port-sgimips/2000/06/29/0006.html .
+
+===
+
+Subject: Software coherency on low-end SGI R10000 platforms
+To: None <port-sgimips@netbsd.org>
+From: Jeff Smith <jeffs@geocast.com>
+List: port-sgimips
+Date: 06/29/2000 10:59:43
+
+Soren and I had discussed this a bit, and I promised
+to get back to him on how IO coherency works on the
+desktop SGI systems.  I think this is interesting
+to the broader group and should be archived so I'm
+sending it to port-sgimips.
+
+The issue is the R10000 speculatively executes
+loads and stores.  On the Indigo2 flavor this
+was originally attacked by adding extra cache
+operations on DMAed IO.  It was later found that
+store operations could be speculatively issued
+and would mark the target cache line dirty in
+the primary cache, even if that store was never
+to be executed.  This can happen due to a
+mis-predicted branch.
+
+All is well with coherent IO systems.  On non coherent
+systems like Indigo2 and O2 this creates a race
+condition with DMA reads (IO->mem) where a stale
+cached data can be written back over the DMAed data.
+
+R10K Indigo2:
+
+This issue was figured out late the the R10K I2
+design cycle.  The problem was fixed by modifying
+the compiler and assembler to issue a cache barrier
+instruction to address 0(sp) as the first instruction
+in basic blocks that contain stores to registers
+other than $0 and $sp.
+
+noreorder assembly code is required to be done by
+hand as the compiler/assembler cannot assume $sp
+is valid, and many of these cases cannot hit the
+problem.
+
+A small number of leaf routines like bcopy, bzero
+and copyout were also modified for better performance.
+
+Speculative reads are handled with an extra cache
+invalidation after DMA reads.
+
+This really only affects the kernel.  User mode
+binaries run unchanged with some restrictions on
+direct IO.
+
+R10K O2:
+
+This machine took a different approach given
+it had more time to react to the problem and
+because it runs a 32b kernel.
+
+The agent chip does not allow K0 access above
+8MB.  They do this by having the kernel map
+everything else in K2 and use a different cache
+mode the K0 is set to.  I do not recall the
+specifics of which mode was used.
+
+The kernel then maps all DMA buffers in K2, and
+purges the mapping from the tlb while DMAs are
+in flight.   Because you cannot get to this page
+via K0 or K2 (speculation will not miss the tlb
+if I recall correctly), the DMA operation is safe.
+
+Note that all DMA buffers must be above 8MB.  I
+think this bar was 8MB, it could be 4MB.
+
+This scheme played a lot of havoc on the drivers
+in IRIX.  The bus_* interfaces may provide enough
+of an abstraction to allow drivers to work easily.
+
+The kernel must also not assume it can use K0
+on addresses above the DMA bar.  That will usually
+hit you a few places.
+
+I hope this helps any NetBSD work that's done for
+these platforms.
+
+jeffs
+
