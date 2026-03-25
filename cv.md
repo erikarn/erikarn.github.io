@@ -5,7 +5,7 @@ title: Resume
 
 ## Adrian Chadd
 
-* Email: adrian@creative.net.au
+* Email: adrian@creative.net.au / adrian.chadd@gmail.com
 * Mobile: +1 415 857 2937
 
 ## Career Objectives
@@ -15,9 +15,10 @@ hardware platforms, networked services; IoT devices; internet infrastructure
 and wireless technologies.
 
 ## Technical Skills
-Adrian Chadd has over 25 years experience in various networking, systems and
-software related areas. He has worked in a variety of environments including
-technology startups, telecommunications carriers, corporate, consulting,
+
+Adrian Chadd has over 30 years experience in various networking, systems,
+embedded and software related areas. He has worked in a variety of environments
+including technology startups, telecommunications carriers, corporate, consulting,
 academic and government organisations.
 
 His experience with software, hardware, electronics, networking from all
@@ -39,7 +40,7 @@ solving, debugging and troubleshooting across all disciplines.
 * Web services - All aspects of Squid development, troubleshooting, performance work, optimisation and deployment. Exposure to Cisco ACE and Cache Engines. Forward and reverse proxy environments. Development and administration experience with Lighttpd, Nginx. Development experience with node.js and Django.
 * Embedded systems - Atheros MIPS SoC (AR71xx, AR724x, AR913x, AR933x, AR934x,
   QCA955x, QCA953x.) ARM systems (Broadcom BCM7444, Qualcomm Atheros IPQ801x,
-  Qualcomm Snapdragon).
+  Qualcomm Snapdragon), ST-Micro (STM32) SoCs, ASIC embedded ARM/RISC-V MCU designs.
   Exposure to 68HC11 / 8051. Extensive experience with Atmel AVR and
   Arduino based designs. Some exposure to PIC. Commercial development on
   Z180 hardware.
@@ -62,7 +63,7 @@ solving, debugging and troubleshooting across all disciplines.
 
 ## Employment History
 
-### Facebook / Meta - August 2018 -
+### Facebook / Meta - August 2018 - March 2026
 
 I was initially hired into Facebook/Meta to work on the WiFi driver/
 framework for their "Project Orion" AR glasses operating system and
@@ -70,18 +71,44 @@ hardware. It ended up growing into a larger BSP bring-up and design role
 and from that into a multi-purpose power/thermal/platform efficiency
 role.
 
-I've since been working on their wearables platforms, including
-the Project Orion AR glasses, the Meta Rayban Display glasses, and
-upcoming AR and other wearables products.
+* Part of a small team performing core BSP design and implementation for
+  phone SoCs - starting with GPIO, Power/PMIC, Clock, Reset and other core
+  functionality, up through SDIO/MMC bus support, USB-C / USB-PD bring-up
+  and negotiation, then up to CPU core clock/power gating
+* Supported other teams working on the Project Orion custom OS who worked
+  on other core OS / BSP functionality (eg USB, PCIe, GPU/Display, I2C/SPI,
+  etc)
 
-Although my primary focus is power, thermal and platform efficiency,
-I end up spending my time working cross functional across all
+I've since worked on their wearables platforms, including the Project Orion
+AR glasses, the Meta Rayban Display glasses, and upcoming AR and other
+undisclosed wearables products.
+
+* Transferring the learnings/drivers from the custom OS to a custom AOSP build
+  for the Orion compute unit
+* Deep dives into PCIe and ASPM support to minimise power usage - including
+  debugging BSP / ASIC expectation mismatches
+* USB transport debugging and optimisation between compute and glasses devices
+* Designed and helped debug the ASIC block power sequencing between the AP
+  and various ASIC MCUs/compute IP
+
+Although my primary focus was power, thermal and platform efficiency,
+I ended up spending my time working cross functional across all
 hardware, firmware and software parts of each product.
 
-I've participated in the whole platform stack starting with ASIC design
-reviews, electrical/thermal layout reviews, software and firmware
-architecture reviews, helped debug and repair FPGA / Verilog designs,
-and a lot more which I can't talk about here!
+* Worked on ASIC design reviews with a software/firmware/integration perspective
+* Electrical / thermal / power reviews
+* Debugged FPGA / Verilog designs during development
+* General performance, power, thermal and beahvioural profiling using
+  various Linux (eBPF, performance counters, perfetto, etc) and external
+  (eg power rail monitoring) tooling
+* Brought up and developed internal power rail tooling based on TI INA,
+  STM32 MCUs and FPGAs for developer and CI based high resolution/sample
+  rate power logging and analysis
+* General BSP layer work, including debugging and extending vendor provided
+  components mated with custom internally developed ASIC designs
+* Worked cross functional with other teams on the AR and wearable product
+  lines to tackle and address complicated performance, power and thermal
+  issues
 
 ### Eva Automation, Inc. (Redwood City, CA) - November 2015 - August 2016
 
