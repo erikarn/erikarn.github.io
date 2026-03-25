@@ -103,7 +103,7 @@ hardware, firmware and software parts of each product.
   (eg power rail monitoring) tooling
 * Brought up and developed internal power rail tooling based on TI INA,
   STM32 MCUs and FPGAs for developer and CI based high resolution/sample
-  rate power logging and analysis
+  rate power logging and analysis, using Zephyr as an RTOS
 * General BSP layer work, including debugging and extending vendor provided
   components mated with custom internally developed ASIC designs
 * Worked cross functional with other teams on the AR and wearable product
