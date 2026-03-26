@@ -63,7 +63,7 @@ solving, debugging and troubleshooting across all disciplines.
 
 ## Employment History
 
-### Facebook / Meta - August 2018 - March 2026
+### Facebook / Meta - August 2018 - 
 
 I was initially hired into Facebook/Meta to work on the WiFi driver/
 framework for their "Project Orion" AR glasses operating system and
