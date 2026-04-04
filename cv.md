@@ -10,9 +10,10 @@ title: Resume
 
 ## Career Objectives
 
-Seeking challenging roles designing, implementing and troubleshooting new
-hardware platforms, networked services; IoT devices; internet infrastructure
-and wireless technologies.
+Seeking challenging roles bringing together cross functional teams
+across hardware, software, firmware, silicon/ASIC validation in
+consumer platforms, internet infrastructure and wireless/networked
+technologies.
 
 ## Technical Skills
 
@@ -23,30 +24,42 @@ academic and government organisations.
 
 His experience with software, hardware, electronics, networking from all
 angles - specification, design, implementation, maintenance and
-troubleshooting - make him an ideal candidate as part of a technical group
-with a mandate to deliver secure, efficient, flexible solutions in a realistic
+troubleshooting - make him an ideal candidate to help drive cross functional
+efforts that bridge software, hardware, firmware and ASIC validation teams
+deliver secure, efficient, flexible solutions in a realistic
 timeframe.
 
 His diverse skill-sets and interests give him novel insights into problem
 solving, debugging and troubleshooting across all disciplines.
 
+Early career highlights include:
+
 * Network infrastructure - Design, implementation and troubleshooting of
   ethernet, ATM, satellite and native IP based networks. End-user technologies include POTS, DSL, 802.11, campus ethernet.
 * Network equipment - Firewalls, routers and switches from vendors including Cisco, Juniper, Foundry, Bay Networks, Lucent, Alteon, Nokia.
 * Network design - BGP and OSPF network design, protocol implementation, troubleshooting.
-* Programming languages - highly proficient C and C++, various assembler flavours, Perl; Java, Haskell, Python, javascript. Exposure to COBOL, Fortran, PL/1.
-* Operating systems - Kernel-level development with FreeBSD and Linux. Administration and application development in FreeBSD, Solaris and Linux. Network application development for various versions of Windows.
 * Database services - Application developer and administrator using PostgreSQL and MySQL. Some Oracle application developer exposure.
 * Web services - All aspects of Squid development, troubleshooting, performance work, optimisation and deployment. Exposure to Cisco ACE and Cache Engines. Forward and reverse proxy environments. Development and administration experience with Lighttpd, Nginx. Development experience with node.js and Django.
-* Embedded systems - Atheros MIPS SoC (AR71xx, AR724x, AR913x, AR933x, AR934x,
-  QCA955x, QCA953x.) ARM systems (Broadcom BCM7444, Qualcomm Atheros IPQ801x,
-  Qualcomm Snapdragon), ST-Micro (STM32) SoCs, ASIC embedded ARM/RISC-V MCU designs.
-  Exposure to 68HC11 / 8051. Extensive experience with Atmel AVR and
-  Arduino based designs. Some exposure to PIC. Commercial development on
-  Z180 hardware.
 * Systems Programming - Event-driven network and disk IO; POSIX threads, distributed message passing, various RPC flavours, multi-thread and multi-process SMP applications.
-* Wireless Technology - 802.11abgn, 802.11ac, 802.11s mesh, 2/5GHz, some 900MHz/700MHz experience; TDMA; Bluetooth, Bluetooth-LE
-* Wireless Development - Ongoing driver development of the Atheros HAL wireless driver in FreeBSD. Maintainer/lead of the FreeBSD net80211 802.11 wireless stack. Other driver maintenance (Intel, Realtek.)
+
+Current career focuses include:
+
+* Low-level software and firmware bring-up on various CPU designs
+  (ARM, MIPS, RISC-V, Intel/AMD) stretching across embedded, enterprise,
+  telecommunication and consumer devices.
+* FreeBSD, Linux, RTOS (eg Zephyr, FreeRTOS) development ranging from
+  BSP, kernel infrastructure, networking and device drivers.
+* A focus on C, C++ and assembly languages, with proficiencies in
+  Java, Perl, Python, Javascript and others.
+* Hands-on experience ranging from 8 bit CPUs (Z80/Z180, 65xx, 8051,
+  AVR/Arduino), modern MCUs (eg STM32, nRF, Raspberry Pi cores),
+  Qualcomm/Atheros SoCs (networking and cell phone), Mediatek and Samsung
+  SoCs, through to OpenPower POWER8/POWER9, Intel/AMD hardware.
+* Wireless Technology - 802.11abgn, 802.11ac, 802.11s mesh, 2/5GHz,
+  some 900MHz/700MHz experience; TDMA; 60GHz, Bluetooth, Bluetooth-LE
+* Wireless Development - Maintainer/lead of the FreeBSD net80211 802.11
+  wireless stack.  Familiarity with Atheros, Qualcomm, Broadcom, Mediatek,
+  Realtek, Intel, Marvell WiFi chipsets among others.
 
 ## Presentations
 
@@ -63,7 +76,7 @@ solving, debugging and troubleshooting across all disciplines.
 
 ## Employment History
 
-### Facebook / Meta - August 2018 - 
+### Facebook / Meta - August 2018 -
 
 I was initially hired into Facebook/Meta to work on the WiFi driver/
 framework for their "Project Orion" AR glasses operating system and
@@ -90,15 +103,27 @@ undisclosed wearables products.
 * USB transport debugging and optimisation between compute and glasses devices
 * Designed and helped debug the ASIC block power sequencing between the AP
   and various ASIC MCUs/compute IP
+* Worked on specific reset, power sequencing requirements between SoC,
+  ASIC and peripherals to avoid scenarios where hardware could be bricked
+  and unrecoverable by end consumers
+* Bridged connectivity (wireless, bluetooth) teams, IPC teams, firmware
+  teams and audio/graphics/camera teams to deliver working predictable
+  latency solutions over wireless/USB whilst understanding the platform
+  limitations and requirements.
 
 Although my primary focus was power, thermal and platform efficiency,
-I ended up spending my time working cross functional across all
-hardware, firmware and software parts of each product.
+I ended up spending most of my time driving ad-hoc cross functional
+efforts across all hardware, firmware and software parts of each product.
+
+I found myself bridging hardware, software, firmware, verilog design and
+ASIC validation with teams to help each understand each others needs
+and deliver working solutions up and down the product stack from
+silicon up through to graphics/audio presentation layers.
 
 * Worked on ASIC design reviews with a software/firmware/integration perspective
 * Electrical / thermal / power reviews
 * Debugged FPGA / Verilog designs during development
-* General performance, power, thermal and beahvioural profiling using
+* General performance, power, thermal and behavioural profiling using
   various Linux (eBPF, performance counters, perfetto, etc) and external
   (eg power rail monitoring) tooling
 * Brought up and developed internal power rail tooling based on TI INA,
@@ -411,6 +436,21 @@ http://www.freebsd.org/
 * (2016) Added A-MSDU encapsulation support to net80211.
 * (2016) Added initial 802.11n (BCM4312, BCM4322) chipset support to the Broadcom softmac driver (bwn).
 * (2016) Added 5GHz transmit/receive handling in the Broadcom softmac driver (bwn).
+* (2024) Further 802.11ac station mode fixes, RTL8812AU/RTL8821AU 802.11ac support.
+* (2025) powerpc64 platform improvements and bug fixes leading up to FreeBSD 15.0
+  and FreeBSD-15.1.
+* (2025) Worked with others on iwx(4) (Intel 802.11ac) driver import from
+  OpenBSD and subsequent stability/performance improvements.
+* (2025) net80211 platform portability improvements, internal API improvements,
+  encryption handling improvements.
+* (2025) Worked with others on mtw(4) (Mediatek MT7601U) 802.11n driver
+  import from OpenBSD and subsequent stbility/performance improvements.
+* (2026) POWER8/POWER9 platform improvements and bugfixes for bother bare metal
+  and virtualisation support.
+* (2026) Legacy PPC970 (apple powermac) SMP fixes
+* (2026) QEMU openfirmwre stack smash debugging
+* (2026) rge(4) driver port from OpenBSD for Realtek RTL8125/RTL8126/RTL8127
+  1G, 2.5G, 5.5G and 10G ethernet chipsets.
 
 ### Xen (general)
 
