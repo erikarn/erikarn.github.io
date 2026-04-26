@@ -23,6 +23,7 @@ on the web in general. There's a lot of PDFs spread all over the place.
  * [indy/notes](indy/notes) - SGI Indy Hardware, Software and
    Platform Documentation
  * [o2/notes](o2/notes) - SGI O2 Hardware, Software and Platform Documentation
+ * [hardware/notes](hadware/notes) - SGI Hardware Guide (incomplete)
 
 ## CPU Documentation
 
