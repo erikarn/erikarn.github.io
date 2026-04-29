@@ -67,6 +67,11 @@ XFS.
 
  * [misc/sgi-driver-guide-007-0911-050.pdf](misc/sgi-driver-guide-007-0911-050.pdf) - SGI/IRIX Driver Guide
 
+## Software Projects
+
+ * [https://github.com/nsafran1217/SGI-L2-Docker](https://github.com/nsafran1217/SGI-L2-Docker) - SGI L1 driver, L2/L3 controller for SGI hardware cluster setups
+ * [https://github.com/techomancer/iris](https://github.com/techomancer/iris) - IRIS - Irresponsible Rust IRIX Simulator (SGI Indy)
+
 
 ## Misc / Non-SGI
 
