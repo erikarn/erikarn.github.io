@@ -48,3 +48,5 @@ I will just put what I use / read here.
 ## Misc Documentation
 
 * [cpus/ppc_PRG.pdf](cpus/ppc_PRG.pdf) - 1997 Motorola PPC Programming Guide
+* [misc/CPC945.pdf](misc/CPC945.pdf) - IBM - CPC945 Bridge and Memory Controller
+  User Manual (for PPC970 / G5 parts) (A15-6010-02a)
