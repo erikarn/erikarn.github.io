@@ -14,6 +14,10 @@ in 1995 likely cemented my trajectory into software engineering.
 I'm trying to collate the random bits and pieces that exist out there
 on the web in general. There's a lot of PDFs spread all over the place.
 
+## IRIX Installation
+
+ * [install](install) - IRIX installation notes for various things
+
 ## 3D prints
 
  * [3dprints](3dprints) - a list of SGI related 3D prints
