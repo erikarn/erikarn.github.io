@@ -149,5 +149,10 @@ into memory.
    Indigo 2 firmware detects the monitor and programs in various bits and
    pieces.
 
+### Schematics
+
+ * [schematics/GR-4_Schematic.pdf](schematics/GR-4_Schematic.pdf) - XZ Graphics ; GR4 Schematic
+ * [schematics/VB-3_Schematic.pdf](schematics/VB-3_Schematic.pdf) - XZ Graphics ; VB3 Schematic
+
 ## Miscellaneous
 
