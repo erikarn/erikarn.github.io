@@ -41,4 +41,54 @@ in one place.
 
 ## Architectures
 
-(TBD)
+ * [arch/007-2816-005.pdf](arch/007-2816-005.pdf) -
+   SGI MIPSproTM N32 ABI Handbook (007-2816-005)
+ * [arch/MD00016-2B-4K-SUM-01.18.pdf](arch/MD00016-2B-4K-SUM-01.18.pdf) -
+   MIPS3 4K Processor Core Family Software User's Manual (MD00016)
+   (Revision 01.18) (November 15, 2004)
+ * [arch/MD00039-2B-4KC-DTS-01.08.pdf](arch/MD00039-2B-4KC-DTS-01.08.pdf) -
+   MIPS32 4Kc Processor Core Datasheet
+   (Revision 01.08) (November 19, 2004)
+ * [arch/MD00040-2B-4KM-DTS-01.08.pdf](arch/MD00040-2B-4KM-DTS-01.08.pdf) -
+   MIPS32 4Km Processor Core Datasheet
+   (Revision 01.08) (November 19, 2004)
+ * [arch/MD00041-2B-4KP-DTS-01.08.pdf](arch/MD00041-2B-4KP-DTS-01.08.pdf) -
+   MIPS32 4Kp Processor Core Datasheet
+   (Revision 01.08) (November 19, 2004)
+ * [arch/MD00343-2B-24K-SUM-03.11.pdf](arch/MD00343-2B-24K-SUM-03.11.pdf) -
+   MIPS32 24K Processor Core Family Software User’s Manual
+   (MD00343) (Revision 03.11) (December 19, 2008)
+ * [arch/MD00355-2B-24KPRG-PRG-04.63.pdf](arch/MD00355-2B-24KPRG-PRG-04.63.pdf) -
+   Programming the MIPS32 24K Core Family
+   (MD00355) (Revision 04.63) (December 19, 2008)
+ * [arch/MD00496-2B-74KC-DTS-01.07.pdf](arch/MD00496-2B-74KC-DTS-01.07.pdf) -
+   MIPS32 74Kc Processor Core Datasheet
+ * [arch/MD00497-2B-74KF-DTS-01.07.pdf](arch/MD00497-2B-74KF-DTS-01.07.pdf) -
+   MIPS32 74Kf Processor Core Datasheet
+ * [arch/MD00519-2B-74K-SUM-01.05.pdf](arch/MD00519-2B-74K-SUM-01.05.pdf) -
+   MIPS32 74K Processor Core Family Software User’s Manual
+   (MD00519) (Revision 01.05) (March 30, 2011)
+ * [arch/MD00540-2B-SPRAM-APP-02.01.pdf](arch/MD00540-2B-SPRAM-APP-02.01.pdf) -
+   Working with ScratchPad RAMS for MIPS32 Cores Application Note
+ * [arch/MD00541-2B-74K-PRG-02.14.pdf](arch/MD00541-2B-74K-PRG-02.14.pdf) -
+   Programming the MIPS32 74K Core Family
+ * [arch/MD00652-2B-74K-WHP-01.00.pdf](arch/MD00652-2B-74K-WHP-01.00.pdf) -
+   Architectural Strengths of the MIPS32 74K Core Family
+ * [arch/MIPS32_Architecture_Volume_I-A_Introduction.pdf](arch/MIPS32_Architecture_Volume_I-A_Introduction.pdf) -
+   MIPS(tm) Architecture For Programmers Volume I-A:
+   Introduction to the MIPS32(tm) Architecture
+   (MD00082) (Revision 6.01) (August 20, 2014)
+ * [arch/MIPS32_Vol2_Instruction_set.pdf](arch/MIPS32_Vol2_Instruction_set.pdf) -
+   MIPS(tm) Architecture For Programmers Volume II-A: The MIPS32(tm) Instruction Set
+   (MD00086) (Revision 5.04) (December 11, 2013)
+ * [arch/MIPS_Vol3.pdf](arch/MIPS_Vol3.pdf) -
+   MIPS32(tm) Architecture For Programmers
+   Volume III: The MIPS32(tm) Privileged Resource Architecture
+   (MD00090) (Revision 0.95) (March 12, 2001)
+ * [arch/MipsInstructionSetReference.pdf](arch/MipsInstructionSetReference.pdf) -
+   MIPS32(tm) Architecture For Programmers Volume II: The MIPS32(tm) Instruction Set
+   (MD00086) (Revision 2.00) (June 9, 2003)
+ * [arch/R4400_Uman_book_Ed2.pdf](arch/R4400_Uman_book_Ed2.pdf) -
+   MIPS R4000 Microprocessor User’s Manual (Second Edition) (1994)
+ * [arch/MIPSISA.pdf](arch/MIPSISA.pdf) - MIPS R4000 Microprocessor User's Manual,
+   Appendix A (CPU Instruction Set Details)
