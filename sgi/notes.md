@@ -75,6 +75,7 @@ XFS.
 
  * [https://github.com/nsafran1217/SGI-L2-Docker](https://github.com/nsafran1217/SGI-L2-Docker) - SGI L1 driver, L2/L3 controller for SGI hardware cluster setups
  * [https://github.com/srcshelton/sgi-l1-usb-control](https://github.com/srcshelton/sgi-l1-usb-control) SGI L1 USB kernel driver and tools for Linux
+ * [https://github.com/flexion-unity/SGI-L2-WUI](https://github.com/flexion-unity/SGI-L2-WUI) - SGI L2 Controller Web UI
  * [https://github.com/techomancer/iris](https://github.com/techomancer/iris) - IRIS - Irresponsible Rust IRIX Simulator (SGI Indy)
 
 
