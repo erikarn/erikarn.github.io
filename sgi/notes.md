@@ -78,6 +78,12 @@ XFS.
  * [https://github.com/flexion-unity/SGI-L2-WUI](https://github.com/flexion-unity/SGI-L2-WUI) - SGI L2 Controller Web UI
  * [https://github.com/techomancer/iris](https://github.com/techomancer/iris) - IRIS - Irresponsible Rust IRIX Simulator (SGI Indy)
 
+## T-Shirts
+
+This is the Indy Mania images that would, I dunno, look good on a t-shirt.
+
+ * [misc/IndyManiaTransparent.png](misc/IndyManiaTransparent.png) - Indy Mania! (png)
+ * [misc/IndyManiaTransparent.svg](misc/IndyManiaTransparent.svg) - Indy Mania! (svg)
 
 ## Misc / Non-SGI
 
