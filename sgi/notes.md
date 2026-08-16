@@ -28,6 +28,7 @@ on the web in general. There's a lot of PDFs spread all over the place.
    Platform Documentation
  * [o2/notes](o2/notes) - SGI O2 Hardware, Software and Platform Documentation
  * [hardware/notes](hardware/notes) - SGI Hardware Guide (incomplete)
+ * [prom/notes](prom/notes) - CPU bootstrap PROM images and boot firmware
 
 ## CPU Documentation
 
